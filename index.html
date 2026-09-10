@@ -8,7 +8,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-
 :root {
   --red: #e61a1a;
   --red-dark: #b31313;
@@ -20,21 +19,9 @@
   --text-muted: #888;
   --header-bg: rgba(20,20,20,0.92);
 }
-
-.rule-item.placeholder {
-  align-items: center;
-  justify-content: center;
-  border: 1px dashed rgba(255,255,255,0.15);
-  background: rgba(255,255,255,0.02);
-}
-.rule-item.placeholder .rule-num {
-  background: var(--grey-light);
-}
-.rule-item.placeholder .rule-text {
-  font-style: italic;
-  color: var(--text-muted);
-}
-
+.rule-item.placeholder { align-items: center; justify-content: center; border: 1px dashed rgba(255,255,255,0.15); background: rgba(255,255,255,0.02); }
+.rule-item.placeholder .rule-num { background: var(--grey-light); }
+.rule-item.placeholder .rule-text { font-style: italic; color: var(--text-muted); }
 body {
   font-family: 'Inter', -apple-system, sans-serif;
   background: var(--grey-dark);
@@ -42,8 +29,6 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
-
-/* ===== HEADER ===== */
 header {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -57,426 +42,65 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  text-decoration: none;
-}
-
-.logo-icon {
-  width: 42px; height: 42px;
-  background: var(--red);
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 900;
-  font-size: 20px;
-  color: #fff;
-  letter-spacing: 1px;
-}
-
-.logo-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.logo-text h1 {
-  font-size: 18px;
-  font-weight: 800;
-  color: #fff;
-  letter-spacing: 1px;
-}
-
-.logo-text span {
-  font-size: 10px;
-  color: var(--text-muted);
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-/* ===== NAV ===== */
-nav {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-nav a {
-  color: var(--text-muted);
-  text-decoration: none;
-  font-size: 13px;
-  font-weight: 600;
-  padding: 8px 18px;
-  border-radius: 8px;
-  transition: all 0.2s;
-  letter-spacing: 0.3px;
-}
-
-nav a:hover, nav a.active {
-  color: #fff;
-  background: rgba(230,26,26,0.15);
-}
-
-nav a.active {
-  color: var(--red);
-  background: rgba(230,26,26,0.12);
-}
-
-.nav-arrow {
-  font-size: 10px;
-  opacity: 0.7;
-  margin-left: 2px;
-}
-
-/* ===== SOCIAL ICONS (header right) ===== */
-.social-icons {
-  display: flex;
-  gap: 8px;
-}
-
-.social-icons a {
-  width: 36px; height: 36px;
-  border: 2px solid var(--red);
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s;
-  text-decoration: none;
-  color: var(--red);
-  background: var(--grey-dark);
-}
-
-.social-icons a:hover {
-  background: var(--red);
-  color: #fff;
-}
-
-.social-icons svg {
-  width: 18px; height: 18px;
-  fill: currentColor;
-}
-
-/* ===== HERO ===== */
-.hero {
-  position: relative;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 100px 32px 60px;
-  overflow: hidden;
-}
-
-.hero-bg {
-  position: absolute;
-  inset: 0;
-  background: url('fon.png') center center / cover no-repeat;
-  filter: brightness(0.35) saturate(1.2);
-  z-index: 0;
-}
-
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(26,26,26,0.6) 0%, rgba(26,26,26,0.85) 70%, var(--grey-dark) 100%);
-  z-index: 1;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-  max-width: 700px;
-}
-
-.hero-badge {
-  display: inline-block;
-  background: rgba(230,26,26,0.15);
-  border: 1px solid rgba(230,26,26,0.3);
-  color: var(--red);
-  font-size: 12px;
-  font-weight: 700;
-  padding: 6px 16px;
-  border-radius: 20px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-
-.hero-content h2 {
-  font-size: 56px;
-  font-weight: 900;
-  color: #fff;
-  letter-spacing: 2px;
-  line-height: 1.1;
-  margin-bottom: 12px;
-}
-
-.hero-content h2 span {
-  color: var(--red);
-}
-
-.hero-content p {
-  font-size: 16px;
-  color: var(--text-muted);
-  line-height: 1.6;
-  margin-bottom: 32px;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hero-buttons {
-  display: flex;
-  gap: 12px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  padding: 14px 28px;
-  border-radius: 10px;
-  font-size: 14px;
-  font-weight: 700;
-  text-decoration: none;
-  transition: all 0.25s;
-  cursor: pointer;
-  border: none;
-  letter-spacing: 0.5px;
-}
-
-.btn-primary {
-  background: var(--red);
-  color: #fff;
-  box-shadow: 0 0 20px rgba(230,26,26,0.3);
-}
-
-.btn-primary:hover {
-  background: var(--red-dark);
-  box-shadow: 0 0 30px rgba(230,26,26,0.5);
-  transform: translateY(-2px);
-}
-
-.btn-secondary {
-  background: rgba(255,255,255,0.06);
-  color: var(--text);
-  border: 1px solid rgba(255,255,255,0.1);
-}
-
-.btn-secondary:hover {
-  background: rgba(255,255,255,0.1);
-  transform: translateY(-2px);
-}
-
-.btn svg {
-  width: 18px; height: 18px;
-  fill: currentColor;
-}
-
-/* ===== SECTIONS (pages) ===== */
-.page {
-  display: none;
-  padding: 100px 32px 60px;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.page.active {
-  display: block;
-}
-
-.page-title {
-  font-size: 32px;
-  font-weight: 800;
-  color: #fff;
-  margin-bottom: 8px;
-}
-
-.page-subtitle {
-  font-size: 14px;
-  color: var(--text-muted);
-  margin-bottom: 40px;
-}
-
-/* ===== RULES ===== */
-.rules-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.rule-item {
-  background: var(--grey);
-  border: 1px solid rgba(255,255,255,0.04);
-  border-radius: 12px;
-  padding: 20px 24px;
-  display: flex;
-  gap: 16px;
-  align-items: flex-start;
-}
-
-.rule-num {
-  width: 32px; height: 32px;
-  min-width: 32px;
-  background: var(--red);
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 800;
-  font-size: 14px;
-  color: #fff;
-}
-
-.rule-text {
-  font-size: 14px;
-  line-height: 1.6;
-  color: var(--text);
-}
-
-/* ===== SHOP ===== */
-.shop-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 16px;
-}
-
-.shop-card {
-  background: var(--grey);
-  border: 1px solid rgba(255,255,255,0.04);
-  border-radius: 14px;
-  padding: 28px 24px;
-  text-align: center;
-  transition: all 0.25s;
-}
-
-.shop-card:hover {
-  border-color: rgba(230,26,26,0.3);
-  transform: translateY(-4px);
-  box-shadow: 0 8px 30px rgba(230,26,26,0.1);
-}
-
-.shop-card-icon {
-  width: 56px; height: 56px;
-  background: rgba(230,26,26,0.1);
-  border-radius: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 16px;
-  font-size: 24px;
-}
-
-.shop-card h3 {
-  font-size: 18px;
-  font-weight: 700;
-  color: #fff;
-  margin-bottom: 6px;
-}
-
-.shop-card .desc {
-  font-size: 13px;
-  color: var(--text-muted);
-  line-height: 1.5;
-  margin-bottom: 16px;
-}
-
-.shop-card .price {
-  font-size: 24px;
-  font-weight: 800;
-  color: var(--red);
-  margin-bottom: 16px;
-}
-
-.shop-card .btn {
-  width: 100%;
-  justify-content: center;
-}
-
-.shop-badge {
-  display: inline-block;
-  background: var(--red);
-  color: #fff;
-  font-size: 10px;
-  font-weight: 800;
-  padding: 3px 10px;
-  border-radius: 6px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 10px;
-}
-
-/* ===== DOWNLOAD PAGE ===== */
-.download-section {
-  background: var(--grey);
-  border: 1px solid rgba(255,255,255,0.04);
-  border-radius: 14px;
-  padding: 40px;
-  text-align: center;
-}
-
-.download-section .btn {
-  font-size: 16px;
-  padding: 16px 36px;
-}
-
-.download-info {
-  margin-top: 20px;
-  font-size: 13px;
-  color: var(--text-muted);
-}
-
-.download-info span {
-  color: var(--text);
-  font-weight: 600;
-}
-
-/* ===== DONATE PAGE ===== */
-.donate-placeholder {
-  background: var(--grey);
-  border: 1px solid rgba(255,255,255,0.04);
-  border-radius: 14px;
-  padding: 60px 40px;
-  text-align: center;
-}
-
-.donate-placeholder p {
-  color: var(--text-muted);
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-
-/* ===== FOOTER ===== */
-footer {
-  text-align: center;
-  padding: 24px;
-  font-size: 12px;
-  color: var(--text-muted);
-  border-top: 1px solid rgba(255,255,255,0.04);
-}
-
-footer a {
-  color: var(--red);
-  text-decoration: none;
-}
-
-/* ===== MOBILE ===== */
-@media (max-width: 768px) {
-  header { padding: 0 16px; }
-  nav a { font-size: 12px; padding: 6px 12px; }
-  .hero-content h2 { font-size: 36px; }
-  .page { padding: 80px 16px 40px; }
-  .shop-grid { grid-template-columns: 1fr; }
-}
-
-/* ===== SCROLLBAR ===== */
+.logo { display: flex; align-items: center; gap: 14px; text-decoration: none; }
+.logo-icon { width: 42px; height: 42px; background: var(--red); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 20px; color: #fff; letter-spacing: 1px; }
+.logo-text { display: flex; flex-direction: column; }
+.logo-text h1 { font-size: 18px; font-weight: 800; color: #fff; letter-spacing: 1px; }
+.logo-text span { font-size: 10px; color: var(--text-muted); letter-spacing: 2px; text-transform: uppercase; }
+nav { display: flex; align-items: center; gap: 4px; }
+nav a { color: var(--text-muted); text-decoration: none; font-size: 13px; font-weight: 600; padding: 8px 18px; border-radius: 8px; transition: all 0.2s; letter-spacing: 0.3px; }
+nav a:hover, nav a.active { color: #fff; background: rgba(230,26,26,0.15); }
+nav a.active { color: var(--red); background: rgba(230,26,26,0.12); }
+.nav-arrow { font-size: 10px; opacity: 0.7; margin-left: 2px; }
+.social-icons { display: flex; gap: 8px; }
+.social-icons a { width: 36px; height: 36px; border: 2px solid var(--red); border-radius: 8px; display: flex; align-items: center; justify-content: center; transition: all 0.2s; text-decoration: none; color: var(--red); background: var(--grey-dark); }
+.social-icons a:hover { background: var(--red); color: #fff; }
+.social-icons svg { width: 18px; height: 18px; fill: currentColor; }
+.hero { position: relative; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 100px 32px 60px; overflow: hidden; }
+.hero-bg { position: absolute; inset: 0; background: url('fon.png') center center / cover no-repeat; filter: brightness(0.35) saturate(1.2); z-index: 0; }
+.hero-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(26,26,26,0.6) 0%, rgba(26,26,26,0.85) 70%, var(--grey-dark) 100%); z-index: 1; }
+.hero-content { position: relative; z-index: 2; text-align: center; max-width: 700px; }
+.hero-badge { display: inline-block; background: rgba(230,26,26,0.15); border: 1px solid rgba(230,26,26,0.3); color: var(--red); font-size: 12px; font-weight: 700; padding: 6px 16px; border-radius: 20px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 20px; }
+.hero-content h2 { font-size: 56px; font-weight: 900; color: #fff; letter-spacing: 2px; line-height: 1.1; margin-bottom: 12px; }
+.hero-content h2 span { color: var(--red); }
+.hero-content p { font-size: 16px; color: var(--text-muted); line-height: 1.6; margin-bottom: 32px; max-width: 500px; margin-left: auto; margin-right: auto; }
+.hero-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; gap: 10px; padding: 14px 28px; border-radius: 10px; font-size: 14px; font-weight: 700; text-decoration: none; transition: all 0.25s; cursor: pointer; border: none; letter-spacing: 0.5px; }
+.btn-primary { background: var(--red); color: #fff; box-shadow: 0 0 20px rgba(230,26,26,0.3); }
+.btn-primary:hover { background: var(--red-dark); box-shadow: 0 0 30px rgba(230,26,26,0.5); transform: translateY(-2px); }
+.btn-secondary { background: rgba(255,255,255,0.06); color: var(--text); border: 1px solid rgba(255,255,255,0.1); }
+.btn-secondary:hover { background: rgba(255,255,255,0.1); transform: translateY(-2px); }
+.btn svg { width: 18px; height: 18px; fill: currentColor; }
+.page { display: none; padding: 100px 32px 60px; max-width: 1100px; margin: 0 auto; }
+.page.active { display: block; }
+.page-title { font-size: 32px; font-weight: 800; color: #fff; margin-bottom: 8px; }
+.page-subtitle { font-size: 14px; color: var(--text-muted); margin-bottom: 40px; }
+.rules-list { display: flex; flex-direction: column; gap: 12px; }
+.rule-item { background: var(--grey); border: 1px solid rgba(255,255,255,0.04); border-radius: 12px; padding: 20px 24px; display: flex; gap: 16px; align-items: flex-start; }
+.rule-num { width: 32px; height: 32px; min-width: 32px; background: var(--red); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 14px; color: #fff; }
+.rule-text { font-size: 14px; line-height: 1.6; color: var(--text); }
+.shop-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.shop-card { background: var(--grey); border: 1px solid rgba(255,255,255,0.04); border-radius: 14px; padding: 28px 24px; text-align: center; transition: all 0.25s; }
+.shop-card:hover { border-color: rgba(230,26,26,0.3); transform: translateY(-4px); box-shadow: 0 8px 30px rgba(230,26,26,0.1); }
+.shop-card-icon { width: 56px; height: 56px; background: rgba(230,26,26,0.1); border-radius: 14px; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 24px; }
+.shop-card h3 { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 6px; }
+.shop-card .desc { font-size: 13px; color: var(--text-muted); line-height: 1.5; margin-bottom: 16px; }
+.shop-card .price { font-size: 24px; font-weight: 800; color: var(--red); margin-bottom: 16px; }
+.shop-card .btn { width: 100%; justify-content: center; }
+.shop-badge { display: inline-block; background: var(--red); color: #fff; font-size: 10px; font-weight: 800; padding: 3px 10px; border-radius: 6px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px; }
+.shop-category { font-size: 18px; font-weight: 800; color: var(--red); text-transform: uppercase; letter-spacing: 1px; margin: 36px 0 16px; padding-bottom: 8px; border-bottom: 1px solid rgba(230,26,26,0.25); }
+.download-section { background: var(--grey); border: 1px solid rgba(255,255,255,0.04); border-radius: 14px; padding: 40px; text-align: center; }
+.download-section .btn { font-size: 16px; padding: 16px 36px; }
+.download-info { margin-top: 20px; font-size: 13px; color: var(--text-muted); }
+.download-info span { color: var(--text); font-weight: 600; }
+.download-steps { max-width: 500px; margin: 24px auto 0; text-align: left; }
+.download-steps li { font-size: 13px; color: var(--text-muted); line-height: 1.7; margin-bottom: 6px; }
+.download-steps li span { color: var(--text); }
+.donate-placeholder { background: var(--grey); border: 1px solid rgba(255,255,255,0.04); border-radius: 14px; padding: 60px 40px; text-align: center; }
+.donate-placeholder p { color: var(--text-muted); font-size: 14px; margin-bottom: 20px; }
+footer { text-align: center; padding: 24px; font-size: 12px; color: var(--text-muted); border-top: 1px solid rgba(255,255,255,0.04); }
+footer a { color: var(--red); text-decoration: none; }
+@media (max-width: 768px) { header { padding: 0 16px; } nav a { font-size: 12px; padding: 6px 12px; } .hero-content h2 { font-size: 36px; } .page { padding: 80px 16px 40px; } .shop-grid { grid-template-columns: 1fr; } }
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--grey-dark); }
 ::-webkit-scrollbar-thumb { background: var(--grey-light); border-radius: 4px; }
@@ -485,7 +109,6 @@ footer a {
 </head>
 <body>
 
-<!-- HEADER -->
 <header>
   <a href="#" class="logo" onclick="showPage('home')">
     <img src="logo.png" alt="BR" style="width:42px;height:42px;border-radius:10px;">
@@ -494,7 +117,6 @@ footer a {
       <span>Minecraft Server</span>
     </div>
   </a>
-
   <nav>
     <a href="#" class="active" onclick="showPage('home')">Главная</a>
     <a href="#" onclick="showPage('download')">Скачать <span class="nav-arrow">↓</span></a>
@@ -502,21 +124,13 @@ footer a {
     <a href="#" onclick="showPage('rules')">Правила <span class="nav-arrow">↓</span></a>
     <a href="#" onclick="showPage('shop')">Магазин <span class="nav-arrow">↓</span></a>
   </nav>
-
   <div class="social-icons">
-    <a href="https://discord.gg/H2rWa2KqG" target="_blank" title="Discord">
-      <svg viewBox="0 0 24 24"><path d="M22,24L16.75,19L17.38,21H4.5A2.5,2.5 0 0,1 2,18.5V3.5A2.5,2.5 0 0,1 4.5,1H19.5A2.5,2.5 0 0,1 22,3.5V24M12,6.8C9.32,6.8 7.44,7.95 7.44,7.95C8.47,7.03 10.27,6.5 10.27,6.5L10.1,6.33C8.41,6.36 6.88,7.53 6.88,7.53C5.16,11.12 5.27,14.22 5.27,14.22C6.67,16.03 8.75,15.9 8.75,15.9L9.46,15C8.21,14.73 7.42,13.62 7.42,13.62C7.42,13.62 9.3,14.9 12,14.9C14.7,14.9 16.58,13.62 16.58,13.62C16.58,13.62 15.79,14.73 14.54,15L15.25,15.9C15.25,15.9 17.33,16.03 18.73,14.22C18.73,14.22 18.84,11.12 17.12,7.53C17.12,7.53 15.59,6.36 13.9,6.33L13.73,6.5C13.73,6.5 15.53,7.03 16.56,7.95C16.56,7.95 14.68,6.8 12,6.8M9.93,10.59C10.58,10.59 11.11,11.16 11.1,11.86C11.1,12.55 10.58,13.13 9.93,13.13C9.29,13.13 8.77,12.55 8.77,11.86C8.77,11.16 9.28,10.59 9.93,10.59M14.1,10.59C14.75,10.59 15.27,11.16 15.27,11.86C15.27,12.55 14.75,13.13 14.1,13.13C13.46,13.13 12.94,12.55 12.94,11.86C12.94,11.16 13.45,10.59 14.1,10.59Z"/></svg>
-    </a>
-    <a href="#" target="_blank" title="Telegram">
-      <svg viewBox="0 0 24 24"><path d="M2,21L23,12L2,3V10L17,12L2,14V21Z"/></svg>
-    </a>
-    <a href="#" onclick="showPage('shop');return false;" title="Магазин">
-      <svg viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2zM7.17 14.75l.03-.12 1.16-2.63h7.08c.75 0 1.41-.41 1.75-1.03l3.58-6.49A1 1 0 0 0 20 4H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.45C4.52 15.37 5.48 17 7 17h12v-2H7l1.17-2.25z"/></svg>
-    </a>
+    <a href="https://discord.gg/H2rWa2KqG" target="_blank" title="Discord"><svg viewBox="0 0 24 24"><path d="M22,24L16.75,19L17.38,21H4.5A2.5,2.5 0 0,1 2,18.5V3.5A2.5,2.5 0 0,1 4.5,1H19.5A2.5,2.5 0 0,1 22,3.5V24M12,6.8C9.32,6.8 7.44,7.95 7.44,7.95C8.47,7.03 10.27,6.5 10.27,6.5L10.1,6.33C8.41,6.36 6.88,7.53 6.88,7.53C5.16,11.12 5.27,14.22 5.27,14.22C6.67,16.03 8.75,15.9 8.75,15.9L9.46,15C8.21,14.73 7.42,13.62 7.42,13.62C7.42,13.62 9.3,14.9 12,14.9C14.7,14.9 16.58,13.62 16.58,13.62C16.58,13.62 15.79,14.73 14.54,15L15.25,15.9C15.25,15.9 17.33,16.03 18.73,14.22C18.73,14.22 18.84,11.12 17.12,7.53C17.12,7.53 15.59,6.36 13.9,6.33L13.73,6.5C13.73,6.5 15.53,7.03 16.56,7.95C16.56,7.95 14.68,6.8 12,6.8M9.93,10.59C10.58,10.59 11.11,11.16 11.1,11.86C11.1,12.55 10.58,13.13 9.93,13.13C9.29,13.13 8.77,12.55 8.77,11.86C8.77,11.16 9.28,10.59 9.93,10.59M14.1,10.59C14.75,10.59 15.27,11.16 15.27,11.86C15.27,12.55 14.75,13.13 14.1,13.13C13.46,13.13 12.94,12.55 12.94,11.86C12.94,11.16 13.45,10.59 14.1,10.59Z"/></svg></a>
+    <a href="#" target="_blank" title="Telegram"><svg viewBox="0 0 24 24"><path d="M2,21L23,12L2,3V10L17,12L2,14V21Z"/></svg></a>
+    <a href="#" onclick="showPage('shop');return false;" title="Магазин"><svg viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2zM7.17 14.75l.03-.12 1.16-2.63h7.08c.75 0 1.41-.41 1.75-1.03l3.58-6.49A1 1 0 0 0 20 4H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.45C4.52 15.37 5.48 17 7 17h12v-2H7l1.17-2.25z"/></svg></a>
   </div>
 </header>
 
-<!-- === PAGE: HOME === -->
 <section class="hero" id="page-home">
   <div class="hero-bg"></div>
   <div class="hero-overlay"></div>
@@ -529,7 +143,7 @@ footer a {
         <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18L5.33 9h3.84v4h3.66V9h3.84L12 2z"/></svg>
         Скачать лаунчер
       </a>
-      <a href="#" class="btn btn-secondary" onclick="showPage('discord')">
+      <a href="https://discord.gg/H2rWa2KqG" target="_blank" class="btn btn-secondary">
         <svg viewBox="0 0 24 24"><path d="M22,24L16.75,19L17.38,21H4.5A2.5,2.5 0 0,1 2,18.5V3.5A2.5,2.5 0 0,1 4.5,1H19.5A2.5,2.5 0 0,1 22,3.5V24M12,6.8C9.32,6.8 7.44,7.95 7.44,7.95C8.47,7.03 10.27,6.5 10.27,6.5L10.1,6.33C8.41,6.36 6.88,7.53 6.88,7.53C5.16,11.12 5.27,14.22 5.27,14.22C6.67,16.03 8.75,15.9 8.75,15.9L9.46,15C8.21,14.73 7.42,13.62 7.42,13.62C7.42,13.62 9.3,14.9 12,14.9C14.7,14.9 16.58,13.62 16.58,13.62C16.58,13.62 15.79,14.73 14.54,15L15.25,15.9C15.25,15.9 17.33,16.03 18.73,14.22C18.73,14.22 18.84,11.12 17.12,7.53C17.12,7.53 15.59,6.36 13.9,6.33L13.73,6.5C13.73,6.5 15.53,7.03 16.56,7.95C16.56,7.95 14.68,6.8 12,6.8M9.93,10.59C10.58,10.59 11.11,11.16 11.1,11.86C11.1,12.55 10.58,13.13 9.93,13.13C9.29,13.13 8.77,12.55 8.77,11.86C8.77,11.16 9.28,10.59 9.93,10.59M14.1,10.59C14.75,10.59 15.27,11.16 15.27,11.86C15.27,12.55 14.75,13.13 14.1,13.13C13.46,13.13 12.94,12.55 12.94,11.86C12.94,11.16 13.45,10.59 14.1,10.59Z"/></svg>
         Discord сервер
       </a>
@@ -537,22 +151,26 @@ footer a {
   </div>
 </section>
 
-<!-- === PAGE: DOWNLOAD === -->
 <section class="page" id="page-download">
   <h2 class="page-title">Скачать лаунчер</h2>
   <p class="page-subtitle">Beyond Reality — By Stytet 1.21.1 NeoForge</p>
   <div class="download-section">
-    <div class="btn btn-primary" style="display:inline-flex; margin-bottom:12px;">
+    <a href="https://drive.usercontent.google.com/download?id=1_Re3SPAg8GIrWLHnvargbDYLc9fSkzh2&export=download&confirm=t" target="_blank" class="btn btn-primary" style="display:inline-flex; margin-bottom:12px;">
       <svg viewBox="0 0 24 24" style="width:20px;height:20px;fill:#fff;"><path d="M5 20h14v-2H5v2zm7-18L5.33 9h3.84v4h3.66V9h3.84L12 2z"/></svg>
-      Скачать лаунчер
-    </div>
+      Скачать BRRP_Installer.exe
+    </a>
     <div class="download-info">
-      Версия: <span>1.21.1 NeoForge</span> &nbsp;|&nbsp; Вес: <span>~450 MB</span> &nbsp;|&nbsp; ОС: <span>Windows 10/11</span>
+      Версия: <span>1.21.1 NeoForge</span> &nbsp;|&nbsp; Вес: <span>~1.8 GB</span> &nbsp;|&nbsp; ОС: <span>Windows 10/11</span>
     </div>
+    <ol class="download-steps">
+      <li>Скачай <span>BRRP_Installer.exe</span></li>
+      <li>Запусти установщик — он сам скачает Java, лаунчер и игру</li>
+      <li>Установщик создаст ярлык на рабочем столе</li>
+      <li>Запусти лаунчер, введи ник и нажми <span>ИГРАТЬ</span></li>
+    </ol>
   </div>
 </section>
 
-<!-- === PAGE: DISCORD === -->
 <section class="page" id="page-discord">
   <h2 class="page-title">Discord сервер</h2>
   <p class="page-subtitle">Присоединяйся к нашему сообществу</p>
@@ -561,13 +179,10 @@ footer a {
       <svg viewBox="0 0 24 24" style="width:20px;height:20px;fill:#fff;"><path d="M22,24L16.75,19L17.38,21H4.5A2.5,2.5 0 0,1 2,18.5V3.5A2.5,2.5 0 0,1 4.5,1H19.5A2.5,2.5 0 0,1 22,3.5V24M12,6.8C9.32,6.8 7.44,7.95 7.44,7.95C8.47,7.03 10.27,6.5 10.27,6.5L10.1,6.33C8.41,6.36 6.88,7.53 6.88,7.53C5.16,11.12 5.27,14.22 5.27,14.22C6.67,16.03 8.75,15.9 8.75,15.9L9.46,15C8.21,14.73 7.42,13.62 7.42,13.62C7.42,13.62 9.3,14.9 12,14.9C14.7,14.9 16.58,13.62 16.58,13.62C16.58,13.62 15.79,14.73 14.54,15L15.25,15.9C15.25,15.9 17.33,16.03 18.73,14.22C18.73,14.22 18.84,11.12 17.12,7.53C17.12,7.53 15.59,6.36 13.9,6.33L13.73,6.5C13.73,6.5 15.53,7.03 16.56,7.95C16.56,7.95 14.68,6.8 12,6.8M9.93,10.59C10.58,10.59 11.11,11.16 11.1,11.86C11.1,12.55 10.58,13.13 9.93,13.13C9.29,13.13 8.77,12.55 8.77,11.86C8.77,11.16 9.28,10.59 9.93,10.59M14.1,10.59C14.75,10.59 15.27,11.16 15.27,11.86C15.27,12.55 14.75,13.13 14.1,13.13C13.46,13.13 12.94,12.55 12.94,11.86C12.94,11.16 13.45,10.59 14.1,10.59Z"/></svg>
       Присоединиться
     </a>
-    <div class="download-info">
-      Нас уже <span>500+</span> игроков в Discord!
-    </div>
+    <div class="download-info">Нас уже <span>500+</span> игроков в Discord!</div>
   </div>
 </section>
 
-<!-- === PAGE: RULES === -->
 <section class="page" id="page-rules">
   <h2 class="page-title">Правила сервера</h2>
   <p class="page-subtitle">В разработке</p>
@@ -576,38 +191,130 @@ footer a {
   </div>
 </section>
 
-<!-- === PAGE: SHOP === -->
 <section class="page" id="page-shop">
-  <h2 class="page-title">Магазин привилегий</h2>
-  <p class="page-subtitle">Поддержи сервер и получи уникальные возможности</p>
+  <h2 class="page-title">Магазин</h2>
+  <p class="page-subtitle">Все цены указаны в рублях</p>
+
+  <h3 class="shop-category">Привилегии</h3>
   <div class="shop-grid">
     <div class="shop-card">
-      <div class="shop-badge">Популярное</div>
-      <div class="shop-card-icon">👑</div>
+      <div class="shop-card-icon">⭐</div>
       <h3>VIP</h3>
-      <div class="desc">Доступ к /fly, /hat, цветной чат, приоритетный вход</div>
-      <div class="price">299 ₽</div>
+      <div class="desc">Базовая привилегия для комфортной игры</div>
+      <div class="price">399 ₽</div>
       <a href="#" class="btn btn-primary" onclick="showPage('donate')">Купить</a>
     </div>
     <div class="shop-card">
-      <div class="shop-card-icon">⚔️</div>
-      <h3>Premium</h3>
-      <div class="desc">Всё из VIP + /feed, /heal, PvP-арена, наборы каждый день</div>
+      <div class="shop-card-icon">💎</div>
+      <h3>Deluxe</h3>
+      <div class="desc">Расширенные возможности и преимущества</div>
+      <div class="price">999 ₽</div>
+      <a href="#" class="btn btn-primary" onclick="showPage('donate')">Купить</a>
+    </div>
+    <div class="shop-card">
+      <div class="shop-badge">Топ</div>
+      <div class="shop-card-icon">👑</div>
+      <h3>Legion</h3>
+      <div class="desc">Максимальная привилегия с полным набором возможностей</div>
+      <div class="price">2 399 ₽</div>
+      <a href="#" class="btn btn-primary" onclick="showPage('donate')">Купить</a>
+    </div>
+  </div>
+
+  <h3 class="shop-category">Услуги</h3>
+  <div class="shop-grid">
+    <div class="shop-card">
+      <div class="shop-card-icon">🪖</div>
+      <h3>Военный билет</h3>
+      <div class="desc">Оформление военного билета для RP</div>
+      <div class="price">399 ₽</div>
+      <a href="#" class="btn btn-primary" onclick="showPage('donate')">Купить</a>
+    </div>
+    <div class="shop-card">
+      <div class="shop-card-icon">🔓</div>
+      <h3>Разбан</h3>
+      <div class="desc">Снятие блокировки аккаунта</div>
+      <div class="price">799 ₽</div>
+      <a href="#" class="btn btn-primary" onclick="showPage('donate')">Купить</a>
+    </div>
+    <div class="shop-card">
+      <div class="shop-card-icon">🧹</div>
+      <h3>Снятие варна</h3>
+      <div class="desc">Удаление предупреждения с аккаунта</div>
+      <div class="price">129 ₽</div>
+      <a href="#" class="btn btn-primary" onclick="showPage('donate')">Купить</a>
+    </div>
+    <div class="shop-card">
+      <div class="shop-card-icon">🤝</div>
+      <h3>Снять ЧС фракции</h3>
+      <div class="desc">Снятие блокировки взаимодействия с фракцией</div>
+      <div class="price">299 ₽</div>
+      <a href="#" class="btn btn-primary" onclick="showPage('donate')">Купить</a>
+    </div>
+  </div>
+
+  <h3 class="shop-category">Прокачка</h3>
+  <div class="shop-grid">
+    <div class="shop-card">
+      <div class="shop-card-icon">⬆️</div>
+      <h3>+3 уровня</h3>
+      <div class="desc">Мгновенное повышение на 3 уровня</div>
+      <div class="price">67 ₽</div>
+      <a href="#" class="btn btn-primary" onclick="showPage('donate')">Купить</a>
+    </div>
+  </div>
+
+  <h3 class="shop-category">Экипировка</h3>
+  <div class="shop-grid">
+    <div class="shop-card">
+      <div class="shop-card-icon">📦</div>
+      <h3>Склад</h3>
+      <div class="desc">Дополнительное место для хранения</div>
       <div class="price">599 ₽</div>
       <a href="#" class="btn btn-primary" onclick="showPage('donate')">Купить</a>
     </div>
     <div class="shop-card">
-      <div class="shop-badge">Лучшее</div>
-      <div class="shop-card-icon">💎</div>
-      <h3>Deluxe</h3>
-      <div class="desc">Всё из Premium + доступ к /god, приватный слот, уникальный скин</div>
-      <div class="price">999 ₽</div>
+      <div class="shop-card-icon">🎭</div>
+      <h3>Маска</h3>
+      <div class="desc">Особая маска для RP-ситуаций</div>
+      <div class="price">699 ₽</div>
+      <a href="#" class="btn btn-primary" onclick="showPage('donate')">Купить</a>
+    </div>
+    <div class="shop-card">
+      <div class="shop-card-icon">🛡️</div>
+      <h3>Броня Ghost</h3>
+      <div class="desc">Премиальная броня Ghost</div>
+      <div class="price">1 799 ₽</div>
+      <a href="#" class="btn btn-primary" onclick="showPage('donate')">Купить</a>
+    </div>
+  </div>
+
+  <h3 class="shop-category">Оружие</h3>
+  <div class="shop-grid">
+    <div class="shop-card">
+      <div class="shop-card-icon">🔫</div>
+      <h3>Автоматические винтовки</h3>
+      <div class="desc">Полный набор автоматического оружия</div>
+      <div class="price">499 ₽</div>
+      <a href="#" class="btn btn-primary" onclick="showPage('donate')">Купить</a>
+    </div>
+    <div class="shop-card">
+      <div class="shop-card-icon">🎯</div>
+      <h3>Снайперские винтовки</h3>
+      <div class="desc">Набор снайперского вооружения</div>
+      <div class="price">799 ₽</div>
+      <a href="#" class="btn btn-primary" onclick="showPage('donate')">Купить</a>
+    </div>
+    <div class="shop-card">
+      <div class="shop-card-icon">🔫</div>
+      <h3>Пистолеты</h3>
+      <div class="desc">Набор пистолетов для ближнего боя</div>
+      <div class="price">199 ₽</div>
       <a href="#" class="btn btn-primary" onclick="showPage('donate')">Купить</a>
     </div>
   </div>
 </section>
 
-<!-- === PAGE: DONATE === -->
 <section class="page" id="page-donate">
   <h2 class="page-title">Донат</h2>
   <p class="page-subtitle">Поддержи развитие сервера</p>
@@ -617,7 +324,6 @@ footer a {
   </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
   &copy; 2026 Beyond Reality &nbsp;·&nbsp; <a href="#" onclick="showPage('rules')">Правила</a> &nbsp;·&nbsp; Не официальный сайт Mojang/Microsoft
 </footer>
@@ -626,18 +332,14 @@ footer a {
 function showPage(name) {
   document.querySelectorAll('.page, .hero').forEach(el => el.classList.remove('active'));
   document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
-
   const target = name === 'home' ? document.querySelector('.hero') : document.getElementById('page-' + name);
   if (target) target.classList.add('active');
-
   const links = { home: 0, download: 1, discord: 2, rules: 3, shop: 4 };
   const idx = links[name];
   if (idx !== undefined) document.querySelectorAll('nav a')[idx].classList.add('active');
-
   window.scrollTo({ top: 0, behavior: 'smooth' });
   return false;
 }
 </script>
-
 </body>
 </html>
