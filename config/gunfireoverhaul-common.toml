@@ -1,0 +1,28 @@
+[gunfire]
+	#Volume of distant gunfire layers. Large values extend audible range.
+	# Default: 120.0
+	# Range: 1.0 ~ 200.0
+	distantVolume = 120.0
+	#Minimum distance at which the overhaul layer is sent.
+	# Default: 50
+	# Range: 0 ~ 1000
+	minimumDistance = 50
+	#Maximum distance at which the overhaul layer is sent.
+	# Default: 2400
+	# Range: 100 ~ 10000
+	maximumDistance = 2400
+
+[ambient]
+	enabled = false
+	# Default: 1200
+	# Range: 100 ~ 72000
+	minimumDelayTicks = 1200
+	# Default: 6000
+	# Range: 200 ~ 72000
+	maximumDelayTicks = 6000
+	# Default: 501
+	# Range: 100 ~ 10000
+	minimumDistance = 501
+	# Default: 5001
+	# Range: 200 ~ 10000
+	maximumDistance = 5001

@@ -1,0 +1,119 @@
+[ac130_support]
+	#How long an AC-130 mission remains active.
+	# Default: 150
+	# Range: 15 ~ 3600
+	duration_seconds = 150
+	#Cooldown starts when a new mission is called and is stored per player.
+	# Default: 600
+	# Range: 0 ~ 86400
+	cooldown_seconds = 600
+	#Maximum tablet targeting distance in blocks.
+	# Default: 320
+	# Range: 32 ~ 2048
+	max_call_range = 320
+	#Horizontal orbit radius in blocks.
+	# Default: 105.0
+	# Range: 35.0 ~ 512.0
+	orbit_radius = 105.0
+	#Flight altitude above the selected target point.
+	# Default: 105.0
+	# Range: 40.0 ~ 256.0
+	orbit_altitude = 105.0
+	#Tangential flight speed in blocks per tick.
+	# Default: 0.82
+	# Range: 0.15 ~ 3.0
+	orbit_speed = 0.82
+	#Visual inward bank angle while circling the target.
+	# Default: 7.5
+	# Range: 0.0 ~ 20.0
+	orbit_bank_degrees = 7.5
+	#Distance travelled from beyond the horizon before entering the orbit.
+	# Default: 480.0
+	# Range: 128.0 ~ 2048.0
+	approach_distance = 480.0
+	#Distance travelled after the mission before the aircraft is removed.
+	# Default: 560.0
+	# Range: 128.0 ~ 2048.0
+	departure_distance = 560.0
+	#Approach and departure speed in blocks per tick.
+	# Default: 1.15
+	# Range: 0.2 ~ 3.0
+	transit_speed = 1.15
+	#Positional engine volume; larger values also increase audible range.
+	# Default: 10.0
+	# Range: 0.5 ~ 32.0
+	engine_sound_volume = 10.0
+	#Health percentage at which the support aircraft loses powered flight and starts gliding down.
+	# Default: 8.0
+	# Range: 0.0 ~ 30.0
+	shot_down_health_percent = 8.0
+	#Range used to detect homing missiles targeting the AC-130.
+	# Default: 192.0
+	# Range: 32.0 ~ 512.0
+	auto_decoy_detection_range = 192.0
+	#Ticks between incoming missile checks. The normal SBW decoy cooldown is still respected.
+	# Default: 5
+	# Range: 1 ~ 40
+	auto_decoy_scan_interval = 5
+	#How long a shot-down support aircraft remains before cleanup.
+	# Default: 20
+	# Range: 3 ~ 300
+	wreck_lifetime_seconds = 20
+
+[a10_airstrike]
+	#Persistent per-player cooldown for the A-10 strike radio.
+	# Default: 300
+	# Range: 0 ~ 86400
+	cooldown_seconds = 300
+	#Delay between confirming the target and the aircraft entering the area.
+	# Default: 6
+	# Range: 0 ~ 120
+	call_delay_seconds = 6
+	#Maximum radio targeting distance in blocks.
+	# Default: 320
+	# Range: 32 ~ 2048
+	max_call_range = 320
+	#Global safety limit for pending and active strike pairs.
+	# Default: 4
+	# Range: 1 ~ 32
+	max_active_calls = 4
+	#Distance behind the target where the pair spawns.
+	# Default: 240.0
+	# Range: 96.0 ~ 1024.0
+	approach_distance = 240.0
+	#Distance flown beyond the target before cleanup.
+	# Default: 300.0
+	# Range: 96.0 ~ 1024.0
+	departure_distance = 300.0
+	#A-10 altitude above the marked point at the beginning and end of the pass.
+	# Default: 130.0
+	# Range: 32.0 ~ 256.0
+	cruise_altitude = 130.0
+	#Lowest altitude above the marked point during weapon release. A safety floor of 80 blocks is applied.
+	# Default: 90.0
+	# Range: 20.0 ~ 200.0
+	pass_altitude = 90.0
+	#Scripted flight speed in blocks per tick.
+	# Default: 1.35
+	# Range: 0.4 ~ 3.0
+	speed = 1.35
+	#Total lateral spacing between the two A-10 aircraft.
+	# Default: 30.0
+	# Range: 8.0 ~ 80.0
+	formation_separation = 30.0
+	#Number of real SBW Mk-82 bombs released by each A-10.
+	# Default: 2
+	# Range: 1 ~ 6
+	bombs_per_aircraft = 2
+	#Distance in blocks between bomb releases in one pass.
+	# Default: 12.0
+	# Range: 4.0 ~ 40.0
+	bomb_spacing = 12.0
+	#Aircraft used for the first, rocket-attack pass.
+	attacker_entity = "ashvehicle:su-25"
+	#Aircraft used for the second, bombing pass.
+	bomber_entity = "ashvehicle:su-34"
+	#Number of SBW small rockets fired by the first aircraft.
+	# Default: 6
+	# Range: 1 ~ 20
+	rocket_count = 6

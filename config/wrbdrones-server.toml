@@ -1,0 +1,99 @@
+[fpv_drone]
+	#Enable noise interference effect based on FPV drone distance
+	enable_noise_effect = true
+	#Minimum distance (blocks) where noise starts appearing for FPV drone
+	# Default: 20.0
+	# Range: 0.0 ~ 5000.0
+	noise_min_distance = 20.0
+	#Maximum distance (blocks) where noise reaches full intensity for FPV drone
+	# Default: 2400.0
+	# Range: 0.0 ~ 5000.0
+	noise_max_distance = 2400.0
+	#Multiplier for noise intensity for FPV drone (0.0 - 2.0)
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	noise_intensity_multiplier = 1.0
+	#Animation speed for noise effect for FPV drone (higher = faster)
+	# Default: 50.0
+	# Range: 1.0 ~ 500.0
+	noise_animation_speed = 50.0
+	#Speed of noise pattern change for FPV drone (higher = faster pattern change, 0.1 - 10.0)
+	# Default: 0.5
+	# Range: 0.1 ~ 10.0
+	noise_change_speed = 0.5
+	#Scale of noise pattern for FPV drone (higher = finer grain, 0.5 - 5.0)
+	# Default: 1.0
+	# Range: 0.5 ~ 5.0
+	noise_scale = 1.0
+	#Tile size for noise texture for FPV drone (pixels)
+	# Default: 64
+	# Range: 16 ~ 256
+	noise_tile_size = 64
+	#Maximum distance (blocks) for FPV drone signal loss
+	# Default: 2500.0
+	# Range: 50.0 ~ 10000.0
+	max_distance = 2500.0
+
+[mavic_drone]
+	#Maximum distance (blocks) for Mavic drone signal loss
+	# Default: 2500.0
+	# Range: 50.0 ~ 10000.0
+	max_distance = 2500.0
+	#Distance (blocks) where Mavic drone starts losing signal
+	# Default: 2000.0
+	# Range: 50.0 ~ 10000.0
+	signal_loss_distance = 2000.0
+
+[reb]
+	#Radius of large REB (Radio Electronic Warfare) interference effect in blocks
+	# Default: 100.0
+	# Range: 10.0 ~ 5000.0
+	reb_radius = 100.0
+	#Radius of mini REB (Radio Electronic Warfare) interference effect in blocks
+	# Default: 50.0
+	# Range: 5.0 ~ 1000.0
+	reb_mini_radius = 50.0
+
+[shahed136]
+	#Maximum flight distance (blocks) for Shahed 136 from spawn point
+	# Default: 5000.0
+	# Range: 500.0 ~ 30000.0
+	max_distance = 5000.0
+	#Explosion damage for Shahed 136
+	# Default: 300.0
+	# Range: 10.0 ~ 1000.0
+	explosion_damage = 300.0
+	#Explosion radius (blocks) for Shahed 136
+	# Default: 15.0
+	# Range: 2.0 ~ 30.0
+	explosion_radius = 15.0
+	#Minimum speed (km/h) for Shahed 136 input validation
+	# Default: 150.0
+	# Range: 50.0 ~ 500.0
+	min_speed_kmh = 150.0
+	#Maximum speed (km/h) for Shahed 136 input validation
+	# Default: 200.0
+	# Range: 100.0 ~ 1000.0
+	max_speed_kmh = 200.0
+	#Minimum altitude (blocks) for Shahed 136 input validation
+	# Default: -100.0
+	# Range: -200.0 ~ 320.0
+	min_altitude = -100.0
+	#Maximum altitude (blocks) for Shahed 136 input validation
+	# Default: 1000.0
+	# Range: 100.0 ~ 5000.0
+	max_altitude = 1000.0
+	#Default Cruise altitude (blocks above target) for Shahed 136
+	# Default: 80.0
+	# Range: -200.0 ~ 5000.0
+	cruise_altitude = 80.0
+
+[sound]
+	#Maximum distance (blocks) at which Shahed-136 engine sound can be heard. Set to 0 for no limit
+	# Default: 1000.0
+	# Range: 0.0 ~ 5000.0
+	shahed_max_distance = 1000.0
+	#Maximum distance (blocks) at which FPV/Mavic drone engine sound can be heard. Set to 0 for no limit
+	# Default: 250.0
+	# Range: 0.0 ~ 5000.0
+	fpv_max_distance = 250.0

@@ -1,0 +1,140 @@
+[prefix]
+  normal = '&2|&f '
+  error = '&c|&f '
+
+[water-damage]
+  delay-seconds = 1
+  explosion-power = 2.0
+  allowed-submerge-percent = 70
+  ignored-vehicles = ['testmod:testboat', 'testmod:sub2']
+
+[gui.parking]
+  title-format = '&f 炎 ← {parking}'
+  item-lore = [
+    '',
+    '&2| &7Статус: {statusColor}{statusText}',
+    '&2| &7Активно/Всего: &f{activeVehicles}&7/&f{storageVehicles}',
+    '',
+    '&2→ &fНажмите, что-бы заспавнить транспорт',
+]
+  rows = 6
+  vehicle-slots = [11, 14, 29, 32, 47, 50]
+  page-size = 6
+
+[gui.interaction-menu]
+  interact-notification = '&fНажмите &eF&f, для взаимодействия'
+  return-lore = [
+    '',
+    '&2| &7Убрать транспорт в гараж.',
+    '&2| &7Внутри транспорта НЕ должно быть предметов.',
+    '',
+    '&2→ &fНажмите, что-бы убрать транспорт',
+]
+  sell-lore = [
+    '',
+    '&c| &7Продать транспорт на переработку.',
+    '&c| &7Вы получите &e{supply} &7сырья ({percent}% от стоимости).',
+    '&c| &7Транспорт будет &cУНИЧТОЖЕН&7.',
+    '',
+    '&c→ &fНажмите, что-бы продать транспорт',
+]
+
+[navigation.button]
+  back-slot = 52
+  forward-slot = 53
+
+[navigation.button.back.active]
+  material = 'ARROW'
+  custom-model-data = 0
+  name = '&aНазад'
+
+[navigation.button.back.inactive]
+  material = 'BARRIER'
+  custom-model-data = 0
+  name = '&7Назад'
+
+[navigation.button.forward.active]
+  material = 'ARROW'
+  custom-model-data = 0
+  name = '&aВперед'
+
+[navigation.button.forward.inactive]
+  material = 'BARRIER'
+  custom-model-data = 0
+  name = '&7Вперед'
+
+[gui.decoration]
+  material = 'PAPER'
+  custom-model-data = 1
+
+[gui.ranks.blue]
+  "1" = { item = 'PAPER', custom-model-data = 982 }
+  "2" = { item = 'PAPER', custom-model-data = 983 }
+  "3" = { item = 'PAPER', custom-model-data = 984 }
+  "4" = { item = 'PAPER', custom-model-data = 985 }
+  "5" = { item = 'PAPER', custom-model-data = 986 }
+  "6" = { item = 'PAPER', custom-model-data = 987 }
+  "7" = { item = 'PAPER', custom-model-data = 988 }
+  "8" = { item = 'PAPER', custom-model-data = 989 }
+  "9" = { item = 'PAPER', custom-model-data = 990 }
+
+[gui.ranks.red]
+  "1" = { item = 'PAPER', custom-model-data = 991 }
+  "2" = { item = 'PAPER', custom-model-data = 992 }
+  "3" = { item = 'PAPER', custom-model-data = 993 }
+  "4" = { item = 'PAPER', custom-model-data = 994 }
+  "5" = { item = 'PAPER', custom-model-data = 995 }
+  "6" = { item = 'PAPER', custom-model-data = 996 }
+  "7" = { item = 'PAPER', custom-model-data = 997 }
+  "8" = { item = 'PAPER', custom-model-data = 998 }
+  "9" = { item = 'PAPER', custom-model-data = 999 }
+
+[management.gui]
+  title-format = '&f 影 ← {parking}'
+  rows = 6
+  vehicle-slots = [11, 14, 29, 32, 47, 50]
+  page-size = 6
+
+  name-format = '&e{title}'
+  lore-locked = [
+    '',
+    '&2| &7Статус: &cНедоступно',
+    '',
+    '&2| &7Стоимость изготовки: &e{unlockCost} &fчертежа',
+    '&2| &7Время изготовки: &e{unlockMinutes}мин.',
+    '',
+    '&2→ &fНажмите, что-бы начать изготовление',
+]
+  lore-available = [
+    '',
+    '&2| &7Статус: &aДоступно',
+    '&2| &7Активно/Всего: &e{activeVehicles} &f/ &e{storageVehicles}',
+    '',
+    '&2| &7Вы можете изготовить ещё транспорт:',
+    '&2| &7Стоимость изготовки: &e{nextCost} &fчертежа',
+    '&2| &7Время изготовки: &e{nextMinutes}мин.',
+    '',
+    '&2→ &fНажмите, что-бы начать изготовление',
+]
+  lore-in-production = [
+    '',
+    '&2| &7Статус: &eПроизводится...',
+    '&2| &7Активно/Всего: &e{activeVehicles} &f/ &e{storageVehicles}',
+    '',
+    '&2| &7Готовность через: &e{remainingMin}мин. {remainingSec}сек.',
+]
+
+[blueprints.item]
+  material = 'STICK'
+  custom-model-data = 4
+  name = '&f&lЧертеж'
+  lore = ['&7Используется для разблокировки и производства техники']
+
+[production]
+  price-increase-percent = 5.0
+
+[regions]
+  worldguard = 'placeholders'
+  sell-region = ''
+  sell-owning-region = ''
+  sell-percent = 35.0

@@ -1,0 +1,86 @@
+{
+  "enabled": true,
+  "accessSeconds": 300,
+  "failedCooldownSeconds": 90,
+  "maxStartDistance": 5.0,
+  "teamPermissionRoots": [
+    "msdvehicles.vfsm",
+    "msdvehicles.vnr"
+  ],
+  "enabledMinigames": [
+    "lockpick",
+    "wires",
+    "screws",
+    "grid",
+    "code",
+    "dial",
+    "circuit"
+  ],
+  "defaultSettings": {
+    "difficulty": 2,
+    "timeSeconds": 45,
+    "allowedMinigames": []
+  },
+  "ranks": {
+    "1": {
+      "difficulty": 1,
+      "timeSeconds": 40,
+      "allowedMinigames": []
+    },
+    "2": {
+      "difficulty": 2,
+      "timeSeconds": 60,
+      "allowedMinigames": []
+    },
+    "3": {
+      "difficulty": 3,
+      "timeSeconds": 90,
+      "allowedMinigames": []
+    },
+    "4": {
+      "difficulty": 3,
+      "timeSeconds": 90,
+      "allowedMinigames": []
+    },
+    "5": {
+      "difficulty": 4,
+      "timeSeconds": 120,
+      "allowedMinigames": []
+    },
+    "6": {
+      "difficulty": 4,
+      "timeSeconds": 120,
+      "allowedMinigames": []
+    },
+    "7": {
+      "difficulty": 5,
+      "timeSeconds": 150,
+      "allowedMinigames": []
+    },
+    "8": {
+      "difficulty": 5,
+      "timeSeconds": 150,
+      "allowedMinigames": []
+    },
+    "9": {
+      "difficulty": 6,
+      "timeSeconds": 180,
+      "allowedMinigames": []
+    }
+  },
+  "vehicles": {
+    "test_vehicle": {
+      "difficulty": 5,
+      "timeSeconds": 130,
+      "allowedMinigames": [
+        "lockpick",
+        "wires",
+        "screws",
+        "grid",
+        "code",
+        "dial",
+        "circuit"
+      ]
+    }
+  }
+}

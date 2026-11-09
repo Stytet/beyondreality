@@ -1,0 +1,37 @@
+{
+  "test_vehicle": {
+    "entityId": "minecraft:pig",
+    "displayName": "",
+    "permission": "vehiclesx.vehicle.test",
+    "iconMaterial": "MINECART",
+    "customModelData": 0,
+    "unlock": {
+      "costBlueprints": 0,
+      "timeMinutes": 0
+    },
+    "production": {
+      "baseBlueprint": 0,
+      "baseMinutes": 0
+    },
+    "rank": {
+      "type": "",
+      "level": 0
+    },
+    "garageUi": {
+      "title": "Test Vehicle",
+      "description": "Короткое описание техники для правой панели гаража.",
+      "rankColor": "#d7ff72",
+      "speed": 3,
+      "health": 4,
+      "firepower": 2,
+      "modelScalePercent": 100,
+      "utilities": [
+        {
+          "item": "minecraft:iron_ingot",
+          "customModelData": 0,
+          "name": "Пулемет"
+        }
+      ]
+    }
+  }
+}
