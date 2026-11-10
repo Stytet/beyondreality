@@ -1,5 +1,5 @@
-﻿{
-    "version":  "1.3.2",
+{
+    "version":  "1.3.3",
     "base":  "https://raw.githubusercontent.com/Stytet/beyondreality/files",
     "files":  [
                   {
@@ -13,21 +13,6 @@
                       "size":  67995
                   },
                   {
-                      "path":  "brrp_dump_1.txt",
-                      "sha256":  "FD5E7643D2271C10E61A7FDC17349075DA448B2731C234BBF76BD4FDEF4E73ED",
-                      "size":  60838
-                  },
-                  {
-                      "path":  "options.txt",
-                      "sha256":  "46018A08E71DB4C23B71C6E7B2D82A0CCADED5E24E52C492CCC25FD828B43F91",
-                      "size":  11025
-                  },
-                  {
-                      "path":  "servers.dat_old",
-                      "sha256":  "3D46BD8F06D9CE32C587A4FE8AA298B31C6ABF20A4ED8672C5F6B496B02DA81E",
-                      "size":  83
-                  },
-                  {
                       "path":  "config/ambientsounds-client.json",
                       "sha256":  "ED1B398794E7B112F1A0C79531EBC9CD56457638C88AF0794EBEF277B1A45504",
                       "size":  4179
@@ -39,7 +24,7 @@
                   },
                   {
                       "path":  "config/brrp_music.txt",
-                      "sha256":  "ECDAF7AFF714FF6AA88A30957591D8E4BD8743BE87A965D4E22C7A7FED3E90B7",
+                      "sha256":  "1CDD4045AF3550E08097440DD161233516FB4EE3FE0E369EE49C7C06A37AF763",
                       "size":  36
                   },
                   {
@@ -139,7 +124,7 @@
                   },
                   {
                       "path":  "config/embeddium-fingerprint.json",
-                      "sha256":  "1A3C0C65C632761457DAAF995EFBEEB6FD2A4E33A0A4AC4FEF9DAFA1C46020EC",
+                      "sha256":  "C7B2A182B2427F10DD0D1DA06B92EDB558ED86BA503EC5101CE5F08A30DFCD16",
                       "size":  427
                   },
                   {
@@ -258,16 +243,6 @@
                       "size":  5429
                   },
                   {
-                      "path":  "config/moonlight-client.toml",
-                      "sha256":  "70BF06A1BAA99B6C6EDBE9A324CCFE5F92536BA4EEBEE90523DFDDD22554D07A",
-                      "size":  2320
-                  },
-                  {
-                      "path":  "config/moonlight-common.toml",
-                      "sha256":  "A6D5E783DC1469E925D4CF62F17A94EE2DFF4FF025D9ED9E61B129581019CDF3",
-                      "size":  960
-                  },
-                  {
                       "path":  "config/neoforge-client.toml",
                       "sha256":  "D58D93E2C429410D0ABF25507D1679F732E1023B03BB52414348EFCF5CF3DDB0",
                       "size":  578
@@ -299,7 +274,7 @@
                   },
                   {
                       "path":  "config/oculus.properties",
-                      "sha256":  "112DC29DEE0EF92E41CB79DBD4777D66505C8857631EA26E6C6CDB0117A44CC4",
+                      "sha256":  "27685FF27F95CAD81DA8ED01AB723DD56ED0D06E10BBEFF287C5F4A9E00DE6F3",
                       "size":  270
                   },
                   {
@@ -341,11 +316,6 @@
                       "path":  "config/sodium-extra.properties",
                       "sha256":  "A2F1B47C1EAA119AB34727F1D43C2506CB3D7F17BA8FB4EFB49E20C8E0B58E70",
                       "size":  360
-                  },
-                  {
-                      "path":  "config/splatter-client.toml",
-                      "sha256":  "70F7B45CFFA21FBFD769053A597C051EDD89464779945C4546B256A953181EF2",
-                      "size":  6984
                   },
                   {
                       "path":  "config/superbwarfare-ac130-support.toml",
@@ -434,38 +404,13 @@
                   },
                   {
                       "path":  "config/asyncparticles/asyncparticles-mixin.properties",
-                      "sha256":  "72B19AFC23DBB7064E36003A425EC09974554E2F62BEA4C92690AC9BCBA6DD8B",
+                      "sha256":  "D8460F941F1B047DC33822D060486FB8EE6B75534137782C35E2C249DF88E69A",
                       "size":  2142
-                  },
-                  {
-                      "path":  "config/asyncparticles/asyncparticles-mixin.properties.bak",
-                      "sha256":  "CF5DCB825A61FBE81C78E9A33275276F8518FB5B3670D96BD0DAB14CCB8EDE71",
-                      "size":  2169
                   },
                   {
                       "path":  "config/asyncparticles/asyncparticles.json",
                       "sha256":  "55CAA45401787FA4DE1005ACD9053371C273341E9639D3A00FC11A51CC17BA55",
                       "size":  1098
-                  },
-                  {
-                      "path":  "config/brrp_parking_bystytet/config.toml",
-                      "sha256":  "925E09DE70D5A4A1DF6BF128F01102A0081F1C6A2924BA67619EAE33EE35F269",
-                      "size":  4457
-                  },
-                  {
-                      "path":  "config/brrp_parking_bystytet/hijack.json",
-                      "sha256":  "5BE0514AF17D987D2DF23C57095D5BA6B79B90FBB05AC08DBA0BB85BA8399014",
-                      "size":  1534
-                  },
-                  {
-                      "path":  "config/brrp_parking_bystytet/parkings.json",
-                      "sha256":  "7A104880987B1710AE7B617CB5B6CE7482699D67E84C2136705282FB79EC434A",
-                      "size":  147
-                  },
-                  {
-                      "path":  "config/brrp_parking_bystytet/vehicles.json",
-                      "sha256":  "45D122E74FB0F31D4D31C3A50FD6F3229B57EFB16EBA10C2805208963158D66C",
-                      "size":  925
                   },
                   {
                       "path":  "config/easy_npc/npc_base.cfg",
@@ -648,18 +593,13 @@
                       "size":  929
                   },
                   {
-                      "path":  "config/fpvdrone/fpvdrone.json",
-                      "sha256":  "61F112A6B0927F689A62235ED90E125EA42D8F8B43DE764B294EDBF583AFA13C",
-                      "size":  7686
-                  },
-                  {
                       "path":  "config/sereneseasons/fertility.toml",
                       "sha256":  "F63F94B985285ADD146C73A8747D278CEC3D386807855B25DE0E1DB9962C153F",
                       "size":  481
                   },
                   {
                       "path":  "config/sereneseasons/seasons.toml",
-                      "sha256":  "8DDDB9D8499BD616AC62BD71AFCDF5C3BD099FFB7E036ED0D6680F2DB2C5F0ED",
+                      "sha256":  "CD56A64F84EACE67C56B00E8DA0CB09B6FD43457572182D2BFCC516661025427",
                       "size":  13899
                   },
                   {
@@ -684,8 +624,8 @@
                   },
                   {
                       "path":  "config/sound_physics_remastered/sound_rates.properties",
-                      "sha256":  "11D712CF12DFAAA4B0E3733A3FE9230AF719310C523A65CB97826778ED5A66CD",
-                      "size":  99032
+                      "sha256":  "02E3BEE5E278DEAA4EFB3DF8E414E4C771FCD831EBA16E9D3D6C224F6C1FE6CF",
+                      "size":  98736
                   },
                   {
                       "path":  "config/traversable_leaves/general.toml",
@@ -734,8 +674,8 @@
                   },
                   {
                       "path":  "config/voicechat/voicechat-client.properties",
-                      "sha256":  "67BA3F526F9124D9FDB279547FD56E5C02C0154C29D5FCE8733CA91178DC9977",
-                      "size":  5061
+                      "sha256":  "F012EE95F7562D2E6622E69ADD8D7E9CBFE6FAC235D90E3D94C686E607E5C2F7",
+                      "size":  5060
                   },
                   {
                       "path":  "config/voicechat/voicechat-server.properties",
@@ -823,436 +763,6 @@
                       "size":  75
                   },
                   {
-                      "path":  "downloads/log.json",
-                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
-                      "size":  0
-                  },
-                  {
-                      "path":  "dynamic-resource-pack-cache/hash.txt",
-                      "sha256":  "03E3BA77D766211A5F6A4C9630248564EB5C16B3CB02E50617255DA88C652877",
-                      "size":  64
-                  },
-                  {
-                      "path":  "logs/2026-11-10-1.log.gz",
-                      "sha256":  "D23C727886C3A7271325FC33292D39A2490D7058E6D18FE994B175299C43102C",
-                      "size":  2399
-                  },
-                  {
-                      "path":  "logs/2026-11-10-2.log.gz",
-                      "sha256":  "CAA68563D693F27B15EC5819FE8E4AC30014975769A2D02BF5DDA9ACD2E6B951",
-                      "size":  2399
-                  },
-                  {
-                      "path":  "logs/debug-1.log.gz",
-                      "sha256":  "51BDE8DD7CD66E19BEA48F6DC7097327B74182A7E6E5AE0A7DB0FD4C8BD23F4C",
-                      "size":  10556
-                  },
-                  {
-                      "path":  "logs/debug-2.log.gz",
-                      "sha256":  "F8B044719F12D36DEBC703FAED999FA97A7C624B8FCD75AADCB38BE4B88A2FBB",
-                      "size":  10553
-                  },
-                  {
-                      "path":  "logs/debug.log",
-                      "sha256":  "C5528F1F8B50B7942E8B838B0CE3ECBF5BE8249307C0E1D408317248015B0B8C",
-                      "size":  5081135
-                  },
-                  {
-                      "path":  "logs/latest.log",
-                      "sha256":  "09546A3C326C5119C612599C6ED16ADC503DD0C049C57B3A4D648D215DAF1B87",
-                      "size":  2267683
-                  },
-                  {
-                      "path":  "mods/(By Stytet) Abduction.jar",
-                      "sha256":  "801F6811430A59EADF9E490D10828630CCEAD0FEA59B24DAF5439C5699EFFBA9",
-                      "size":  1654245
-                  },
-                  {
-                      "path":  "mods/(By Stytet) AccessoriesX.jar",
-                      "sha256":  "3C3543214625B875D88CCC78A63270739C68A2B0E38914784EFE045924D80AD3",
-                      "size":  15096
-                  },
-                  {
-                      "path":  "mods/(By Stytet) AmbientSounds-6.3.3_2.jar",
-                      "sha256":  "C062DBC2399089666FB601611B3BF73FD29BEF61433B0542E7D2E7286AF93996",
-                      "size":  84811178
-                  },
-                  {
-                      "path":  "mods/(By Stytet) appleskin-3.0.8.jar",
-                      "sha256":  "60691595CE02E48281C1EC0D1FAC4E56BA1AADD496DD6C071A41B4DA7F82BF42",
-                      "size":  75595
-                  },
-                  {
-                      "path":  "mods/(By Stytet) balm.jar",
-                      "sha256":  "670ED64E73CACB646B21EAA6E2D2028F95C498D0CF1AE5CFFCF7035D0B2FB32E",
-                      "size":  739709
-                  },
-                  {
-                      "path":  "mods/(By Stytet) betterf1.jar",
-                      "sha256":  "7F45B2849D1C7C1BDE48D74C3C4F960431F6A50D1E58397D0CDB1E41D61EFBA7",
-                      "size":  6411
-                  },
-                  {
-                      "path":  "mods/(By Stytet) Brimm-2.0.3-1.21.1.jar",
-                      "sha256":  "28B8488A4BC121D526A3FB3C6CA5092D3B1DF8524BD47ED9410F67B5DA250695",
-                      "size":  4464115
-                  },
-                  {
-                      "path":  "mods/(By Stytet) c2me.jar",
-                      "sha256":  "2735B16E136E51C03C9A8211FBECAF9D571A28475981223C60662465664F5322",
-                      "size":  4510749
-                  },
-                  {
-                      "path":  "mods/(By Stytet) chatanimation-neoforge-1.21.1-1.1.3.jar",
-                      "sha256":  "2830E1699CCF66D618376ABF2BC756A4763096B2F31B4812C452822E86860B13",
-                      "size":  380396
-                  },
-                  {
-                      "path":  "mods/(By Stytet) chat_heads.jar",
-                      "sha256":  "B1ED6A52EFA3CB43E4C37E3982BC7B08116302511B8F675346F6AEA6D3524E41",
-                      "size":  89272
-                  },
-                  {
-                      "path":  "mods/(By Stytet) ClothConfig.jar",
-                      "sha256":  "65E722E0D98431A07C45F8BDD8D529A217CC8C175FDE1740248BD5C1B4F3C0D4",
-                      "size":  1163890
-                  },
-                  {
-                      "path":  "mods/(By Stytet) configurable.jar",
-                      "sha256":  "C430E3F0C81348B87B9EEC29A7996C317C1A85C94D9256E68FF194031B258559",
-                      "size":  159104
-                  },
-                  {
-                      "path":  "mods/(By Stytet) copycats-3.0.4.jar",
-                      "sha256":  "8480E2A62EAA625F75776831C1D8A9EF3D77D2D816FA2E67566C6EC25BA745D1",
-                      "size":  1791747
-                  },
-                  {
-                      "path":  "mods/(By Stytet) CrawlOnDemand.jar",
-                      "sha256":  "EF5452A9C567C666C4E9AF5E0DAB8AF9D0FB06387B3AADC9DA5602D1B11FF25E",
-                      "size":  26478
-                  },
-                  {
-                      "path":  "mods/(By Stytet) create.jar",
-                      "sha256":  "EF87FE5709F1BA1F5B8BB20A2925B5AFB4669E178FD6D8BF10C167759EEFE37A",
-                      "size":  19123767
-                  },
-                  {
-                      "path":  "mods/(By Stytet) CreativeCore.jar",
-                      "sha256":  "2C5BD7AB92B6218B4AA1DC0E9B106D766B947B0D94107EDF1EBD40E004536936",
-                      "size":  1203996
-                  },
-                  {
-                      "path":  "mods/(By Stytet) Curios_api.jar",
-                      "sha256":  "A45DF2125C26219974ABA7507FFC9AFE7B83ACC941A386AF3FAACB1CC0056FDE",
-                      "size":  410690
-                  },
-                  {
-                      "path":  "mods/(By Stytet) dragonrise_reforge-1.3.7.jar",
-                      "sha256":  "591A1A01AC1E9E573D993B12A88177BD59EC61025094D50F1A7EDC362CB2B7D4",
-                      "size":  94536344
-                  },
-                  {
-                      "path":  "mods/(By Stytet) easy_npc-neoforge-1.21.1-6.13.0.jar",
-                      "sha256":  "AF6AB0746C9004DA97AAF08BA823C4544D2A09085289A35ED5BE782FEE80B5D2",
-                      "size":  2039436
-                  },
-                  {
-                      "path":  "mods/(By Stytet) easy_npc_bundle-neoforge-1.21.1-6.13.0.jar",
-                      "sha256":  "CCEB28D93997E884757CC13586F01E353279B50524FA13A425E62FC123211F01",
-                      "size":  25216
-                  },
-                  {
-                      "path":  "mods/(By Stytet) easy_npc_config_ui-neoforge-1.21.1-6.13.0.jar",
-                      "sha256":  "23A93DB6FAD718F1AC1E677C1B95B5887E921CCA0EFDF8EF61BD4AF157ECDEFB",
-                      "size":  850963
-                  },
-                  {
-                      "path":  "mods/(By Stytet) EmoteCraft-2.4.12.jar",
-                      "sha256":  "8CFF63E900ACD55BB39D41978CC2A70A974E326E2038C30FF20CCFDE4C953A43",
-                      "size":  861829
-                  },
-                  {
-                      "path":  "mods/(By Stytet) entityculling-neoforge.jar",
-                      "sha256":  "20014DF18EDB983B2C8EB764E70209EF84A4AC5AEFD29EF25502FB102B0306CD",
-                      "size":  1582824
-                  },
-                  {
-                      "path":  "mods/(By Stytet) ExplosionCompat.jar",
-                      "sha256":  "4B9BA7C7CC68EEB8CE79A2B7B5D968E0DDB6F9FDDAD1470E00F1ACF5233B2514",
-                      "size":  19539
-                  },
-                  {
-                      "path":  "mods/(By Stytet) explosionoverhaul-0.2.3.0.jar",
-                      "sha256":  "7F7F7EADE53631233DB40CED084BE222E845AAEDFD6C9478727BA514B6031ABA",
-                      "size":  100103858
-                  },
-                  {
-                      "path":  "mods/(By Stytet) FarmersDelight-1.21.1-1.3.2.jar",
-                      "sha256":  "8FF438D62E1FCE61542945FAAE45975D823E04BD6E73A07A121EA05CE2F03DE7",
-                      "size":  3163042
-                  },
-                  {
-                      "path":  "mods/(By Stytet) fast-ip-ping-v1.0.8_1.jar",
-                      "sha256":  "A94B965F7BACEA49D9A6253866801CC9073CA5D38E184C7695D82B6A2536B707",
-                      "size":  10332
-                  },
-                  {
-                      "path":  "mods/(By Stytet) ferritecore.jar",
-                      "sha256":  "D87EA28262715EBFF45B8A82D493E6B468E7A4521BC021DF5D88302196D030A8",
-                      "size":  121559
-                  },
-                  {
-                      "path":  "mods/(By Stytet) Frontline-Pack-SBW1_1.jar",
-                      "sha256":  "06B1DC1C31E43B325500A68B175CC2E428CA7A528B156349CF3FA1FFBE125163",
-                      "size":  32010297
-                  },
-                  {
-                      "path":  "mods/(By Stytet) full_darkness.jar",
-                      "sha256":  "D45F9EA7AF9E416E51320053A56B3B6124D656867B330C80F7E0864C1FEA7286",
-                      "size":  22456
-                  },
-                  {
-                      "path":  "mods/(By Stytet) Gunfire-Overhaul-0.1.6.jar",
-                      "sha256":  "E32482AA431BD1BB6B0E5FB4D9CC0BA21EB28638D624BA176FD799DA828F4B7A",
-                      "size":  6095269
-                  },
-                  {
-                      "path":  "mods/(By Stytet) horror_element_mod-1.6.2-neoforge-1.21.1.jar",
-                      "sha256":  "06695E603DE3966C34DA4C9D23BE0AED62B555306305132BC78B401885EDAA49",
-                      "size":  21138327
-                  },
-                  {
-                      "path":  "mods/(By Stytet) ImmediatelyFast.jar",
-                      "sha256":  "9FBB8DCE1BB72FEACDC3B75C6FCBF689865AD3793A19649443D76BE20993DDD0",
-                      "size":  368598
-                  },
-                  {
-                      "path":  "mods/(By Stytet) kaleidoscopetavern-1.1.2.jar",
-                      "sha256":  "938C8825EC42613CF148B11E672008B96EC10F3F7C9335EF54627EDCE944B5F3",
-                      "size":  1124899
-                  },
-                  {
-                      "path":  "mods/(By Stytet) KotlinForForge-5.11.0_1.jar",
-                      "sha256":  "AC827B62CE8FE71760208671B4A694E3CCD35049075F9406A751CFFB5A5C9779",
-                      "size":  6869790
-                  },
-                  {
-                      "path":  "mods/(By Stytet) lambdynamiclights-4.8.8_1.jar",
-                      "sha256":  "5C41D55AD9306F8D0A8C1B0174D71A3E333026B08ADB6883653CD91AB6C5BEA0",
-                      "size":  2017417
-                  },
-                  {
-                      "path":  "mods/(By Stytet) LesRaisins-Tactical-Equipements-0.3.0.jar",
-                      "sha256":  "BDAF9FF3C0DAA3219ECC7A766553EBC8CC0E817310AE085C5872CA2370BBB794",
-                      "size":  5214962
-                  },
-                  {
-                      "path":  "mods/(By Stytet) lithium.jar",
-                      "sha256":  "A6548862BD13FF8EEA6747CF61DF50C8374A16A22D067614E414ED600EEE6D83",
-                      "size":  774148
-                  },
-                  {
-                      "path":  "mods/(By Stytet) MagicMirror-1.0.0.1887_1.jar",
-                      "sha256":  "662A4446EC63D45D8274BB0BEC71D37CD7DFB45014831B3A46CC706EFE346827",
-                      "size":  138510
-                  },
-                  {
-                      "path":  "mods/(By Stytet) MineTraps-1.21-(v.3.0.0).jar",
-                      "sha256":  "450418B51BC8BFA9895B61300023746BE7733FB73241CED98F2B88B24735AA51",
-                      "size":  169006
-                  },
-                  {
-                      "path":  "mods/(By Stytet) modernfix.jar",
-                      "sha256":  "1E25CA7B9CB1143866D2AB2E096AE1C85163AE1548FEDB0C5668F1B7DFB3DAC0",
-                      "size":  589533
-                  },
-                  {
-                      "path":  "mods/(By Stytet) NotEnoughAnimations-1.11.2_1.jar",
-                      "sha256":  "A2D7BBF5E13D5D5BB6DA970F61C1C3077C649781BB65B0613936939093D9CA27",
-                      "size":  1930488
-                  },
-                  {
-                      "path":  "mods/(By Stytet) notenoughcrashes-4.4.5+1.21.1.jar",
-                      "sha256":  "5E26339287E4CD21E1BE00D52088E3B5F0CAB176EAC967ACD7404115C6ECD22F",
-                      "size":  598916
-                  },
-                  {
-                      "path":  "mods/(By Stytet) ParCool-3.4.3.jar",
-                      "sha256":  "FFD10E6673FFBD6C56C6C971DDA68A5946ADE49F14F8BEEBAA7661B4F386E38F",
-                      "size":  1153680
-                  },
-                  {
-                      "path":  "mods/(By Stytet) quick.jar",
-                      "sha256":  "37ED8231C00231EF0A0D6E6737BF9E2BE0C11BE33A944F1FB36868149413DC13",
-                      "size":  11507
-                  },
-                  {
-                      "path":  "mods/(By Stytet) SecurityCraft v1.10.1.jar",
-                      "sha256":  "CCE82E9F2B74B2C678241A24EECA6C656A07F55F73E16D4D860591DB5ED4435F",
-                      "size":  4951098
-                  },
-                  {
-                      "path":  "mods/(By Stytet) seriousplayeranimations-1.2.0_1.jar",
-                      "sha256":  "4E45BF2B4456AD1F2FFDD570E61D0932801F379B70F9793FA6070B81428CBA61",
-                      "size":  137456
-                  },
-                  {
-                      "path":  "mods/(By Stytet) sound-physics-1.5.1_1.jar",
-                      "sha256":  "BDDC71ECD4F074A101EB3785599D13C69E64025E1029AA0FD0A28FCF9BCCF2EA",
-                      "size":  202454
-                  },
-                  {
-                      "path":  "mods/(By Stytet) superbwarfare-0.8.9-final-mc1.21.1-patch20z51-clean-combat-balance.jar",
-                      "sha256":  "008E61604D975D639B9E5BE0C66C8D455A0E3009B2C0B860351CE11653206C5A",
-                      "size":  36826345
-                  },
-                  {
-                      "path":  "mods/(By Stytet) suppressionmod-1.2.0.jar",
-                      "sha256":  "C20BD65C0B8BA9C8F18B9FDFFC56D747F7E8686B5846355589F9E807A4AB6F99",
-                      "size":  60650
-                  },
-                  {
-                      "path":  "mods/(By Stytet) TaCZ-1.1.7.jar",
-                      "sha256":  "C482524AD9C37128188401107930AF8A09C0E6636349EAC8BBC92B1C2DE78BF3",
-                      "size":  52208395
-                  },
-                  {
-                      "path":  "mods/(By Stytet) trashslot.jar",
-                      "sha256":  "9E1D31BA8B29D2BA2DBC558C5EC86DBFDE8F7CD8BC0DB2AB75E25E428780AE39",
-                      "size":  77420
-                  },
-                  {
-                      "path":  "mods/(By Stytet) traversable_leaves-2.1.0-1.21.1.jar",
-                      "sha256":  "FC2737A2323D762D679DC0E901EE53F56452250F76AFEB58DD5F3AB921844196",
-                      "size":  34677
-                  },
-                  {
-                      "path":  "mods/(By Stytet) voicechat-neoforge-1.21.1-2.6.16.jar",
-                      "sha256":  "1D3CC0668F3AAAD383E2F0940C14C8C7D278FF6F71332AFBAC6D368A2438BEDC",
-                      "size":  4901132
-                  },
-                  {
-                      "path":  "mods/(By Stytet) worldedit-mod-7.3.8.jar",
-                      "sha256":  "5E7752C97876D87411E3760BCC573CC431F43C453722E6959FA7FE54DB1B01CA",
-                      "size":  6222854
-                  },
-                  {
-                      "path":  "mods/(By Stytet) WRB-Armor-0.6.1.jar",
-                      "sha256":  "D9B8844E36144544E195D0D4F6F4BBA172622865A85D77C51A049138D2C47E7F",
-                      "size":  967460
-                  },
-                  {
-                      "path":  "mods/(By Stytet) xaerominimap-neoforge-1.21.1-26.4.2.jar",
-                      "sha256":  "B722BCF794288F0ED51165CD1F057FC4505E20ABBC723B2E17E900426E443603",
-                      "size":  2185409
-                  },
-                  {
-                      "path":  "mods/(By Stytet) xaeroworldmap-neoforge-1.21.1-26.4.2.jar",
-                      "sha256":  "2C4089C2F9132B85749A18920D6E2098744F61FE98854FCFF2E3768F2D7269FA",
-                      "size":  1418918
-                  },
-                  {
-                      "path":  "mods/AsyncParticles-21.1.4.6+1.21.1.jar",
-                      "sha256":  "23025DD18A3591CB3AAA91966AA56878E43FB81246BD947728F237A8B977495A",
-                      "size":  1256527
-                  },
-                  {
-                      "path":  "mods/brrp-3.7-arm.jar",
-                      "sha256":  "A5023A7B3F1A16BFACA9832BAAE6A0CE61FBDF26D2F0255B9B2675AE9348491D",
-                      "size":  648473
-                  },
-                  {
-                      "path":  "mods/BRRP-IrisFix-1.0.0.jar",
-                      "sha256":  "44D74A3367F656EB3AABAF1BAE8C390BEBA461D3D1C7DAA8F78B1117C27659C2",
-                      "size":  2825
-                  },
-                  {
-                      "path":  "mods/BRRP-MainMenu-v10.jar",
-                      "sha256":  "A8115F7607410E8EA59EBA64202FFE7F3C698E830AC194D9352FD58EBD634495",
-                      "size":  452135694
-                  },
-                  {
-                      "path":  "mods/brrp_parking_bystytet-1.0.0.jar",
-                      "sha256":  "D14ABAEB67825B2D75BD1CE74043DEF7491A8522D0275D10ADB7E5D4841D7748",
-                      "size":  13847611
-                  },
-                  {
-                      "path":  "mods/communications.jar",
-                      "sha256":  "948F6DFC6965F1E4112D8980D638A3D2763EE49B4A3148B49B5D30C4C7F068FC",
-                      "size":  343609
-                  },
-                  {
-                      "path":  "mods/embeddium-1.0.15+mc1.21.1.jar",
-                      "sha256":  "3AAC4C4C6E82D78D8DDA4C611D68C672D1061B42BB6954331E3C2E7F14C451E1",
-                      "size":  1048745
-                  },
-                  {
-                      "path":  "mods/embeddium-extra-0.5.7e.jar",
-                      "sha256":  "767D649A73832D84EA9C60424B1726E8CB73F527EA09F073CB5ED0A91900F235",
-                      "size":  383418
-                  },
-                  {
-                      "path":  "mods/flywheel-neoforge-1.21.1-1.0.6.jar",
-                      "sha256":  "31DDA15C205EB596D3B3449EF03F6AF7363A6CD35B3DA4BFE916B304F9E5337E",
-                      "size":  873570
-                  },
-                  {
-                      "path":  "mods/fpvdrone-1.1.4.jar",
-                      "sha256":  "E02828966BFA71249D46CB91E8ADCABBA411BDE98778CF9DDD1F2CE23A5AA111",
-                      "size":  4819324
-                  },
-                  {
-                      "path":  "mods/geckolib-neoforge-1.21.1-4.9.3.jar",
-                      "sha256":  "20A1995E4074F387FF549E2C57EA79DD7D41EE83C6AFB9DD6A6E840E592D1C47",
-                      "size":  634531
-                  },
-                  {
-                      "path":  "mods/GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
-                      "sha256":  "59D2A3FB3D6877E43018FD6A2B199D526074A864276A5F49091409A1CDC62FAE",
-                      "size":  90717
-                  },
-                  {
-                      "path":  "mods/gundb-2.2.2-1.21.1.jar",
-                      "sha256":  "B13A08247707496A15913EA380A3183AF5C1FAC4BB8F4583C6661FC7CA0E924E",
-                      "size":  403093
-                  },
-                  {
-                      "path":  "mods/moonlight-1.21.1-3.7.2-neoforge.jar",
-                      "sha256":  "4A9F15108607CC70273F8A0B6EB24E1E99AF8EEF44BC3AE8681767CA7CE21B0F",
-                      "size":  2299162
-                  },
-                  {
-                      "path":  "mods/NeOculus-1.8.7-fixed.jar",
-                      "sha256":  "09E618F3DB27A8E1CC03461ED7BD71AEA2C0BCEE5EE8E7844A9F6435630FF0C2",
-                      "size":  2810686
-                  },
-                  {
-                      "path":  "mods/playeranimator-2.0.0+1.21.1.jar",
-                      "sha256":  "41A1E8FBFC6AA12765BAACAEB5888538ABEA1E689001314940CA8FF103E9CF6F",
-                      "size":  198153
-                  },
-                  {
-                      "path":  "mods/SereneSeasons-neoforge-1.21.1-10.1.0.3.jar",
-                      "sha256":  "86D89FCE593F868CB6B542943C0F82850CA56970FE0327E401966D8D0420861D",
-                      "size":  159205
-                  },
-                  {
-                      "path":  "mods/splatter-1.21.1-0.3.0-neoforge.jar",
-                      "sha256":  "4D78E9B005E21CAB4380D70C269E589CFAFDE5C4E6DC94A48DF92674538C9E68",
-                      "size":  462730
-                  },
-                  {
-                      "path":  "mods/territories-2.2.8.jar",
-                      "sha256":  "89F0ACE7150828AB1194BB1E7F454FDA501F15928429347A027A0F2CD834DF30",
-                      "size":  25194417
-                  },
-                  {
-                      "path":  "natives/freetype.dll",
-                      "sha256":  "C0B73302F4D4F7EA372BE946011DAA77521304C00D96936742FD65FB18C34FC4",
-                      "size":  2091008
-                  },
-                  {
                       "path":  "natives/glfw.dll",
                       "sha256":  "AFFA7E54EB0DEDCE4A5721C327C1A16035EDBBD039CD402E08107D6D2D55EB1A",
                       "size":  496128
@@ -1263,12 +773,12 @@
                       "size":  398336
                   },
                   {
-                      "path":  "natives/jna17456012281592768207.dll",
+                      "path":  "natives/jna6613557021039708976.dll",
                       "sha256":  "69C45175ECFD25AF023F96AC0BB2C45E6A95E3BA8A5A50EE7969CCAB14825C44",
                       "size":  254464
                   },
                   {
-                      "path":  "natives/jna17456012281592768207.dll.x",
+                      "path":  "natives/jna6613557021039708976.dll.x",
                       "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
                       "size":  0
                   },
@@ -1374,53 +884,53 @@
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/aa12.animation.json",
-                      "sha256":  "F7AE60D752A9CCA00838202BBA55793B5FA866DFEA4DACF4A5A9BF559E310235",
-                      "size":  171812
+                      "sha256":  "37A7316AB7DFB794292FB52AE77F8BB0057F3E5764FC3C91326D9FC8A1B405CF",
+                      "size":  81232
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/ai_awp.animation.json",
-                      "sha256":  "E36940FE9FAB9C1EFDDCB01DF78C4C3CC8DFA05826DFEE7F6DB5FC61B60064BE",
-                      "size":  1557407
+                      "sha256":  "490F9EA0A7AF3100FA9C5DD7E861E8D8FFEEB1E69810B1B6DAA63A0EC3852126",
+                      "size":  587605
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/ak47.animation.json",
-                      "sha256":  "9275B4BEA6B87F168563BCD19A67BBE2DF9F40F154D16180FF7214B40CAA7719",
-                      "size":  414012
+                      "sha256":  "7E0D694219CB118161CAFCE858A224ABC68D6E27A1700FAD010486CEE3A2F782",
+                      "size":  195056
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/aug.animation.json",
-                      "sha256":  "0A588DAAC3817E0171E86E45D3D92AE173E61C61FC46F6C27D36471AF97866E3",
-                      "size":  232335
+                      "sha256":  "A01E45CC642AD4E1722F537E5BB3841B97D02865A471EB084F159BC6F2BADC85",
+                      "size":  88602
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/b93r.animation.json",
-                      "sha256":  "BDCA3C5DE64F8A732F2C6F16A243CAF05621F9AAEDD800F03BC732ED41391AB4",
-                      "size":  557432
+                      "sha256":  "C0D487237AC120FF1572A3D1D45EE23BF40339CD45355015D04D84BABF9048FA",
+                      "size":  243352
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/cz75.animation.json",
-                      "sha256":  "1928C7ED3C7145BB2EAAF3C629E9F17C1E17B7621597F21369B054F455ECCA40",
-                      "size":  158649
+                      "sha256":  "832E1C91852BB9C24C1B15D2700CF6F98AC45F42D87100233B3029C1C7FD473C",
+                      "size":  65725
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/db_long.animation.json",
-                      "sha256":  "4F298B20E56F7FDA438479754AD79006FF1132766D959C691E9E5C7D58210956",
-                      "size":  297399
+                      "sha256":  "109AB690A753CF4DE402682A31DAFD2D1E3E632030722FB15AE79D67BB5BD1C2",
+                      "size":  107685
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/db_short.animation.json",
-                      "sha256":  "5237E5A402628BF9BD1880D10519E4D0E410F97E34D30360DDD72F71C76EAFA0",
-                      "size":  303471
+                      "sha256":  "328AC73B4DFD477D665794B9DA5F274D27EB1CAB287AEE12064568EC91745518",
+                      "size":  110953
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/deagle.animation.json",
-                      "sha256":  "43730CCC189C716B19920662ACFD465CF50889FBF924BCA9999EF5A4429CBBC4",
-                      "size":  593522
+                      "sha256":  "DD19D414584E58774E8CCE1F90BFCB0FF65DD2ABC0779FC520899F1569E7BE43",
+                      "size":  207245
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/deagle_golden.animation.json",
-                      "sha256":  "99C9926D50E6AEB5EF0EC33A6F35939EDB042CD7E6853BD07642A977F343D629",
-                      "size":  597777
+                      "sha256":  "497B40836031D3CD31B28C04FA226E43E25DB214765AC2CE6A36EBBB600BF871",
+                      "size":  208841
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/fn_evolys.animation.json",
@@ -1429,68 +939,68 @@
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/fn_fal.animation.json",
-                      "sha256":  "D1F25030230E91AEACC2E1B8EFF2AD2161A6EB0F4511B0ABBA5706CA65BA2DDB",
-                      "size":  443076
+                      "sha256":  "94D4A25AE4E2A6A43C6D56057937745B5FACF935BF65898C108C7C2822630A3B",
+                      "size":  189928
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/g36k.animation.json",
-                      "sha256":  "7DF3A522EF52C2A1A2CDB134C12E5DF97FF87E7E094DB767376624645384F4D1",
-                      "size":  819630
+                      "sha256":  "7280615B3ECE5DB522E8234F67D7F67A2E2046374C5923274B5796916FF32170",
+                      "size":  396428
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/glock_17.animation.json",
-                      "sha256":  "718C9C8EFD41CA68826E998895B9733CCBEDDF07866F201FBD6D3D6397E8E8EA",
-                      "size":  1516628
+                      "sha256":  "DC0A753B302DCD646E2112EC2950006F9DB714D3CA97458D9C571A000046A1A7",
+                      "size":  608889
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/hk416a5.animation.json",
-                      "sha256":  "84969D6C6714388588718E172F38E90A3CA7B3B6CBF02F2A5D6101F5468EDA7B",
-                      "size":  504002
+                      "sha256":  "5974535CD004735DBEA70DF7F552CB235A46A65788B67B0812B86C9C1B6B1E7C",
+                      "size":  249736
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/hk416d.animation.json",
-                      "sha256":  "E9DD3AB90591DFA2D70C63BFF4E0F5E8C14E33E83E0783A9F4F1D62B47E06DC8",
-                      "size":  501866
+                      "sha256":  "D0BE409A476808786E1B4815B96D222BE8D68B910A2E228E2D89239887C4CB88",
+                      "size":  248235
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/hk_g3.animation.json",
-                      "sha256":  "3795BA10096E7228B57266AB1B05CBF7B0D33F34BFD14ED05C3D38A23A252BB5",
-                      "size":  542363
+                      "sha256":  "5475A38243CD53310E98B22BC6E88A76C00662E0D32DB3B945DA19083B18D68B",
+                      "size":  190888
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/hk_mp5a5.animation.json",
-                      "sha256":  "FC2084668FD03CDDBF76CA02AB87871AB653368675267D86F921E1C7D0D3DFCE",
-                      "size":  531366
+                      "sha256":  "F40BDB11D3D7D381CBDB60968ADB82A7C31B4578970662A49238835781E272F1",
+                      "size":  224069
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/m1014.animation.json",
-                      "sha256":  "FCC484B96731C51B7312CB5CA2469FC20E570244B70540D89FBCDCCC759477B3",
-                      "size":  286731
+                      "sha256":  "38F0CA8EE4847150B3F5AA5F8531BBFEEF5A99ECE46391BB9A76424EAAAF1957",
+                      "size":  122706
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/m107.animation.json",
-                      "sha256":  "35C089AF92D786290EA57CFA0F145AC9BAD186A2932632D123D1E78C0AE8FAA5",
-                      "size":  161663
+                      "sha256":  "F710B4697B49432488BA07786A21DC23990ECAD8177E3D66B5ACB98A069D2634",
+                      "size":  78160
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/m16a1.animation.json",
-                      "sha256":  "3D2BAB4D4E438008AB4C525D29946219AB0094BB2EDEC7F1938CE84F91E5DBB6",
-                      "size":  186976
+                      "sha256":  "A6D3CD278305C2A6DADBEFE7F3A9BEAC1FF8C82F5A9E5304FE847788EDD387CB",
+                      "size":  86800
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/m16a4.animation.json",
-                      "sha256":  "5E130D82BE3A4CB239827F8022E874C1EE6CA99C27E5BE38DCAA7B143E3D690C",
-                      "size":  186816
+                      "sha256":  "351D5D3D4E14A717632E508A7267FF0F7A65EAF849B5E9920645D860A4AF709A",
+                      "size":  86715
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/m1911.animation.json",
-                      "sha256":  "A5F17789C28BD0A1A466F3FD7DAB98CBC5314667ACD86CBE72B9FC75222DA076",
-                      "size":  136619
+                      "sha256":  "9016458EC1DDE9A0E89F0B665F5BB7888FB8D254CAAA6D4BC796D6FE31E9AF8F",
+                      "size":  56881
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/m249.animation.json",
-                      "sha256":  "5A70464ABA70B98C8F4A84892C2E4EFC2FC48E73AE6168493BD347DF91C12D04",
-                      "size":  557734
+                      "sha256":  "35425612CD100E6A809B04652A4933BFBF09F836898AC9BCFB1E655F9D101C51",
+                      "size":  194530
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/m320.animation.json",
@@ -1499,23 +1009,23 @@
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/m4a1.animation.json",
-                      "sha256":  "3FA33F19F9BED0CAAD262B540C09A192450B97F3F472D36FB54931DE3CD23ADF",
-                      "size":  642290
+                      "sha256":  "3614BD8688BDAE52CE13B30E8894284552A664FA61CDFB39A5ACB19794FAE719",
+                      "size":  238837
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/m700.animation.json",
-                      "sha256":  "0BA2D4E326EFE62989B44BFE682600D1163C51398BD6FB5C701E6280C7CA9272",
-                      "size":  169511
+                      "sha256":  "11DC1848A1440E13F0CE9ED470DB07C1668B2BBCC4C861F159B16302A1D9878B",
+                      "size":  79885
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/m870.animation.json",
-                      "sha256":  "3EA05CE4CACE68A58FC38B2CDB42B84BF7FB07C9D41F3BB7558A1DDE39BD091F",
-                      "size":  326633
+                      "sha256":  "B0CB2400E8E2FE6D31E1C044347C63E9AE362FA36A30852E455E8538EF5385E7",
+                      "size":  147382
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/m95.animation.json",
-                      "sha256":  "CEA82A0C6D36FC57DD20F9FEF78F51A631347AE576C0438C67892E7A081864A0",
-                      "size":  230383
+                      "sha256":  "99F1AB535DD3CD73500365A6BA959A5E80EC7788E7E4F114142DFBE4612F282F",
+                      "size":  104043
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/minigun.animation.json",
@@ -1524,28 +1034,28 @@
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/mk14.animation.json",
-                      "sha256":  "6FEF5937837DFED7F59F1BAFB3ECDABD507C814EF3BF6CF6ECEDD160328EF10C",
-                      "size":  165831
+                      "sha256":  "C8608430F648976C7766C7E747510FB3ABC905BE7CA1F0481DB9B625AF108AC5",
+                      "size":  67582
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/p320.animation.json",
-                      "sha256":  "F4D66A5DF21B2506D570B57C26BBF69C94A99681B1E79B76ECE84DC26984D081",
-                      "size":  169138
+                      "sha256":  "8034DDCA6E1BC87EFCC6DCD8EA34EE6F0087565BE0FAF6E8095D94159D4F2EA8",
+                      "size":  72083
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/p90.animation.json",
-                      "sha256":  "F85E4F3275612D650746F54051F900018D73164A65523C13288E206132BE1658",
-                      "size":  162668
+                      "sha256":  "A3D3CC935CF13CAA64CB0E65E88E967892BC70054D2B577FB292ABF1D0B5E8E2",
+                      "size":  73372
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/qbz_191.animation.json",
-                      "sha256":  "34E5DAF1AAE31331652F1E50DD33899CEA1B97B62191D9718F26E66FA959C53B",
-                      "size":  442842
+                      "sha256":  "4DCF374E5BA88DF125882B4572EC7DC4E84A39821032259B781255DEED96AE28",
+                      "size":  223138
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/qbz_95.animation.json",
-                      "sha256":  "C024883A0A37EE4ED74A6DB8B8C183C42DA8EFB568859D8014FE1F5675D9CB80",
-                      "size":  185855
+                      "sha256":  "7E261BDCAA12F9A3578A858455A26B2B7E3B594BB781AD90D2419154AAD44812",
+                      "size":  86180
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/rpg7.animation.json",
@@ -1554,33 +1064,33 @@
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/rpk.animation.json",
-                      "sha256":  "20FEF96A2D9F64D4D7C2EB47163CCCDC599F6BBF7E8E8C8CCA1C9CCDC9CD7E24",
-                      "size":  368688
+                      "sha256":  "2241806E866D0FF03BB9BE5988A38C07004107ED82E81CA2C1380B3542386B6D",
+                      "size":  172076
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/scar_h.animation.json",
-                      "sha256":  "B871AE23DE189DEDB72FFF3093017D57468F225CF72F18EFC585EACFDA4A70EA",
-                      "size":  469052
+                      "sha256":  "F78941B3B40C2543FE47E1B9067B81B15C506FDE0DFFD6A001788EADCC924576",
+                      "size":  228946
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/scar_l.animation.json",
-                      "sha256":  "3802BE2904D91C645F9155F1AFDCAB22575DDBEE40EF111EA769C8193626E047",
-                      "size":  502017
+                      "sha256":  "BD82EF8AD841FF736862A3841BDB1FD0C96A489F6D0B643D4855812B8736EC10",
+                      "size":  250149
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/sks_tactical.animation.json",
-                      "sha256":  "B2E698082DF84E1ADB4AAF1D481C64972AE0D01546C84E10477DCD9DC8D1EDBF",
-                      "size":  601657
+                      "sha256":  "9E75EC652D2C37C42CCA3EF1C9F6BF897B567BDD0D35E903415CF1FD15AFCAAC",
+                      "size":  296748
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/spas_12.animation.json",
-                      "sha256":  "F662DB5DF3BCAA97085468DCFB63EE39A7D1BCC75990927BA0EC734630B09182",
-                      "size":  480775
+                      "sha256":  "F31D559D02EA207FF731BC97F99D95F51C98240E2F31AF788BD2CE9945F76A48",
+                      "size":  236163
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/spr15hb.animation.json",
-                      "sha256":  "4934192213A152624D7C6D6E72387813D5B61956B335FC3242EA798ADC9B413B",
-                      "size":  283797
+                      "sha256":  "C0CFEAC465C5A4905AF2109816F80687C9E34ADB01D9CE1D8B2962B84C0E6CE2",
+                      "size":  135546
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/springfield1873.animation.json",
@@ -1589,28 +1099,28 @@
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/timeless50.animation.json",
-                      "sha256":  "EF1DDEDE4BEDAD12FA007E7270D063602C4CE6590A08B73CB600F3BEB4A95788",
-                      "size":  383928
+                      "sha256":  "2C20C6A74D52EC903512FA5E8C94DA5A3B51203BEA27DE4036CA64A676B56DF3",
+                      "size":  193458
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/type_81.animation.json",
-                      "sha256":  "ABDF0D449C4EEB3A54ED7EA2200413C1D788000EAE4836BDDD0DFFA5CDDA1DB6",
-                      "size":  183025
+                      "sha256":  "3AF29C08A19C499F9DECB61E72B327DE30959F4CFC4DD6F46A31AE4811D40A8A",
+                      "size":  87148
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/ump45.animation.json",
-                      "sha256":  "F1474987BA6053E74C39377CD1E090899A9496817A256CFDDEB99285932DCEA9",
-                      "size":  506326
+                      "sha256":  "A769EE44E4F14ABA1DD6D6A72EEC58BDF723587B52B758A9B61DE9FA8208F1F8",
+                      "size":  195963
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/uzi.animation.json",
-                      "sha256":  "BCE955FD7F94AEBE84F5C309091B304CE514D96E8157FD788FED40DB743E2C57",
-                      "size":  191226
+                      "sha256":  "5079C5948093A08C3769FB397CFDD481EA4629F56E66DDE08873D7CF1C8C1946",
+                      "size":  79283
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/animations/vector45.animation.json",
-                      "sha256":  "49B507256E449C0488A49685CCD218E32EE2692791FB7C068055CDED1378D0A7",
-                      "size":  417856
+                      "sha256":  "656E68F6B16A1BE2BC91C535763B3DA82D9A5372CB271771BE21067BC48EB1D1",
+                      "size":  210152
                   },
                   {
                       "path":  "tacz/tacz_default_gun/assets/tacz/display/ammo/12g_display.json",
@@ -16051,61 +15561,6 @@
                       "path":  "tacz/tacz_default_gun/data/tacz/tacz_tags/attachments/intrinsic/slug.json",
                       "sha256":  "53CD9C256B6D4E740112E0D20D1343E6F5DA87D3F59C10BD056E5356D4BAFBDB",
                       "size":  29
-                  },
-                  {
-                      "path":  "tacz_backup/tacz_default_gun/backup-20261110-032148-d22e94b3e163d7fb35f6e42318ed28ff.zip",
-                      "sha256":  "455A1C0C1597BB55B4677D3AA4838FA61F59A8E9CFD86C68FA0A4D87D0B274C9",
-                      "size":  46901712
-                  },
-                  {
-                      "path":  "xaero/minimap/Multiplayer_m7.joinserver.xyz/config.txt",
-                      "sha256":  "362907AF4891928B0674C2AF6BE09806E9F4AE1C06EDD1413724B60CD4EA22C0",
-                      "size":  348
-                  },
-                  {
-                      "path":  "xaero/world-map/Multiplayer_m7.joinserver.xyz/server_config.txt",
-                      "sha256":  "27E512B622E3B07302D1C5700AFC1681A5F330E65975B373C114B7378E39EBA9",
-                      "size":  292
-                  },
-                  {
-                      "path":  "xaero/world-map/Multiplayer_m7.joinserver.xyz/null/dimension_config.txt",
-                      "sha256":  "CD69860126739288DD30C2E3A687EEFAB9AC841A6EFA79BE3339230D4FF6DFCA",
-                      "size":  80
-                  },
-                  {
-                      "path":  "xaero/world-map/Multiplayer_m7.joinserver.xyz/null/mw$default/.lock",
-                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
-                      "size":  0
-                  },
-                  {
-                      "path":  "xaero/world-map/Multiplayer_m7.joinserver.xyz/null/mw$default/5_-5.zip",
-                      "sha256":  "6A2ED4C54BAC984B2BBD9F03BEEC6C02F280AF2F343DAAB6F77B6D157A146CEF",
-                      "size":  11187
-                  },
-                  {
-                      "path":  "xaero/world-map/Multiplayer_m7.joinserver.xyz/null/mw$default/5_-6.zip",
-                      "sha256":  "899DD9738011939917FB08E1AAA971C05D63827FFEF53ED1BD819CD11A97C2D7",
-                      "size":  40619
-                  },
-                  {
-                      "path":  "xaero/world-map/Multiplayer_m7.joinserver.xyz/null/mw$default/6_-5.zip",
-                      "sha256":  "90FEF582EBAA611BA825D60A4A117B365B0C65DC99F3BD752AD57D237267A28F",
-                      "size":  1060
-                  },
-                  {
-                      "path":  "xaero/world-map/Multiplayer_m7.joinserver.xyz/null/mw$default/6_-6.zip",
-                      "sha256":  "E968ADC6F98D71A1B7C747C6AB3D5736F125BC7D1CB24C019285CD962D54AB28",
-                      "size":  2724
-                  },
-                  {
-                      "path":  "xaero/world-map/Multiplayer_m7.joinserver.xyz/null/mw$default/cache_1/5_-5.xwmc.outdated",
-                      "sha256":  "603AFFC17798CBED97B7BA9A567DE9F80256B9C98F17FC485055D8681AF6AB2F",
-                      "size":  12520
-                  },
-                  {
-                      "path":  "xaero/world-map/Multiplayer_m7.joinserver.xyz/null/mw$default/cache_1/5_-6.xwmc.outdated",
-                      "sha256":  "77889265C05D11FCF686218372962EF8DB54B56CBFDE82122AB04FAC52FCA10D",
-                      "size":  41344
                   }
               ]
 }
