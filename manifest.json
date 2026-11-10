@@ -15834,18 +15834,18 @@
                   },
                   {
                       "path":  "tacz/tacz_default_gun/data/tacz/tacz_tags/attachments/allow_attachments/ak47.json",
-                      "sha256":  "A1C36BBC1910173EB331ABA6F61BB39E428F7BC0879095B6D41016E1D474CD7E",
-                      "size":  155
+                      "sha256":  "2743CA4744B9EB3720D74C4CBB576F0498221AF90FFDF14CD524F78C8B6DB476",
+                      "size":  292
                   },
                   {
                       "path":  "tacz/tacz_default_gun/data/tacz/tacz_tags/attachments/allow_attachments/aug.json",
-                      "sha256":  "8F63F3C9E18BFC6C25E7345B0C03E962740E69F33B74506352E393B924C8A844",
-                      "size":  140
+                      "sha256":  "D3590BC67DE8F411E85A0BE0478B089CB5D0F0F317176CA24E670F2E51EE1439",
+                      "size":  244
                   },
                   {
                       "path":  "tacz/tacz_default_gun/data/tacz/tacz_tags/attachments/allow_attachments/b93r.json",
-                      "sha256":  "830A4CE6D6305B4E4C81264A02FE7310A8FCF66CEE9A965BF348708EA130EB16",
-                      "size":  112
+                      "sha256":  "4297AE5727D063ECA3840DDCB995C71A58A401B63BA0B4F2DE0787E95ECE20E5",
+                      "size":  223
                   },
                   {
                       "path":  "tacz/tacz_default_gun/data/tacz/tacz_tags/attachments/allow_attachments/cz75.json",
@@ -15919,8 +15919,8 @@
                   },
                   {
                       "path":  "tacz/tacz_default_gun/data/tacz/tacz_tags/attachments/allow_attachments/m16a1.json",
-                      "sha256":  "929AADA59A3CF9ED91E84051AA130F92F6F48F970BB67F136E11AB52CE68A95F",
-                      "size":  121
+                      "sha256":  "E2C7BC642A19D72564E2A94F1DDA2EFC1D4D96E8A5ED595DBBC376B3C09FF9FF",
+                      "size":  199
                   },
                   {
                       "path":  "tacz/tacz_default_gun/data/tacz/tacz_tags/attachments/allow_attachments/m16a4.json",
@@ -15934,8 +15934,8 @@
                   },
                   {
                       "path":  "tacz/tacz_default_gun/data/tacz/tacz_tags/attachments/allow_attachments/m249.json",
-                      "sha256":  "BDD6DA489A7B75228E6A773CAFBF02BD6AB486EAAE7B24B590D2439EF0239125",
-                      "size":  160
+                      "sha256":  "B64034AE93E1D8B80D4BEB7AD3C6533B6FE1774AB0F99A6309740BAD5A928F31",
+                      "size":  229
                   },
                   {
                       "path":  "tacz/tacz_default_gun/data/tacz/tacz_tags/attachments/allow_attachments/m4a1.json",
@@ -15969,8 +15969,8 @@
                   },
                   {
                       "path":  "tacz/tacz_default_gun/data/tacz/tacz_tags/attachments/allow_attachments/p90.json",
-                      "sha256":  "D3F22636ADF5948AC875639D530A12F715676583BB164907E387C8A6456F4F42",
-                      "size":  174
+                      "sha256":  "E5F06E6118384CBDF8BDA7E483DABC7F12231CC8695F9319201EB64CBE584550",
+                      "size":  259
                   },
                   {
                       "path":  "tacz/tacz_default_gun/data/tacz/tacz_tags/attachments/allow_attachments/pistol_laser.json",
@@ -15989,8 +15989,8 @@
                   },
                   {
                       "path":  "tacz/tacz_default_gun/data/tacz/tacz_tags/attachments/allow_attachments/rpk.json",
-                      "sha256":  "A0DA0E9962D856FD6DC14FA4B0B4258AFCA6790858A4CC82A8685FA0A18801F1",
-                      "size":  126
+                      "sha256":  "F6AA516E994D9B122EAAD616153B535AE76981D82B9DFE889C89CA8F45C225A2",
+                      "size":  290
                   },
                   {
                       "path":  "tacz/tacz_default_gun/data/tacz/tacz_tags/attachments/allow_attachments/scar_h.json",
@@ -16029,18 +16029,18 @@
                   },
                   {
                       "path":  "tacz/tacz_default_gun/data/tacz/tacz_tags/attachments/allow_attachments/type_81.json",
-                      "sha256":  "F8359AD9A61180A2CE31727186E8DAB3F39EA560A2512F1ADBD24DBDC9A92D3A",
-                      "size":  74
+                      "sha256":  "724CC9DAF121D148A04A95F44B0AA9B52A0EE6D44433498AE45B3CC56D7446B7",
+                      "size":  229
                   },
                   {
                       "path":  "tacz/tacz_default_gun/data/tacz/tacz_tags/attachments/allow_attachments/ump45.json",
-                      "sha256":  "6D7ABE7F5996E4DF647619AC6A118ACCF8E9BA2E9C9C047537B5045C148CBE14",
-                      "size":  223
+                      "sha256":  "2E57BEC6E568A560972274392157A332C3EC57AC6A3E45D7ADB3D78DAF3124B7",
+                      "size":  267
                   },
                   {
                       "path":  "tacz/tacz_default_gun/data/tacz/tacz_tags/attachments/allow_attachments/uzi.json",
-                      "sha256":  "55D887F11355B759E47CD2FECFC886898626EB6FD7E2AD2381EDACFC178AFEF8",
-                      "size":  154
+                      "sha256":  "00F84F33EA8DDD569E1ED142EC3E88F2A824FB25C6F89CA52EEF18DAAD6865AA",
+                      "size":  261
                   },
                   {
                       "path":  "tacz/tacz_default_gun/data/tacz/tacz_tags/attachments/allow_attachments/vector45.json",
